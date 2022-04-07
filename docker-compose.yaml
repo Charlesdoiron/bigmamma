@@ -1,0 +1,13 @@
+version: "3.1"
+
+services:
+  db:
+    image: postgres
+    container_name: bigmamma_menu_back-end
+    restart: always
+    # Uncomment the next two lines to connect to your your database from outside the Docker environment, e.g. using a database GUI like Postico
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: bigmamma
+      POSTGRES_PASSWORD: bigmamma
