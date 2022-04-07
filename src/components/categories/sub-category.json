@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_categories_sub_categories",
+  "info": {
+    "displayName": "SubCategory",
+    "icon": "angry",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tilte": {
+      "type": "string"
+    }
+  }
+}

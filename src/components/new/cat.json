@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_new_cats",
+  "info": {
+    "displayName": "CAT",
+    "icon": "ambulance"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Prod": {
+      "type": "component",
+      "repeatable": true,
+      "component": "categories.product-choice"
+    }
+  }
+}

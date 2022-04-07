@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_categories_product_choices",
+  "info": {
+    "displayName": "ProductChoice",
+    "icon": "apple-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "product": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::product.product"
+    },
+    "price": {
+      "type": "string"
+    },
+    "service": {
+      "type": "enumeration",
+      "enum": [
+        "matin",
+        "midi",
+        "soir"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "sub_category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::sub-category.sub-category"
+    }
+  }
+}

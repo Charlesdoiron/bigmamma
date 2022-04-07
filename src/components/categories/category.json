@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_categories_categories",
+  "info": {
+    "displayName": "Category",
+    "icon": "allergies",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "PRODUCT": {
+      "type": "component",
+      "repeatable": true,
+      "component": "categories.product-choice"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_new_cates",
+  "info": {
+    "displayName": "CATE",
+    "icon": "arrow-alt-circle-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sub_category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::sub-category.sub-category"
+    }
+  }
+}

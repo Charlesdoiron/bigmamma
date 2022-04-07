@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_new_fathers",
+  "info": {
+    "displayName": "FATHER",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "SUB": {
+      "type": "component",
+      "repeatable": true,
+      "component": "categories.sub-category"
+    }
+  }
+}
