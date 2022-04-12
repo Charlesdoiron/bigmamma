@@ -65,9 +65,7 @@
     },
     "tests": {
       "type": "dynamiczone",
-      "components": [
-        "new.father"
-      ]
+      "components": []
     }
   }
 }

@@ -2,21 +2,47 @@
   "collectionName": "components_categories_categories",
   "info": {
     "displayName": "Category",
-    "icon": "allergies",
+    "icon": "air-freshener",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Description": {
-      "type": "text"
-    },
-    "PRODUCT": {
+    "product": {
       "type": "component",
       "repeatable": true,
-      "component": "categories.product-choice"
+      "component": "products.product"
+    },
+    "hide_products": {
+      "type": "boolean",
+      "default": false
+    },
+    "background_color": {
+      "type": "string"
+    },
+    "gif_placement": {
+      "type": "enumeration",
+      "enum": [
+        "top-left",
+        "top-right",
+        "bottom-left",
+        "bottom-right"
+      ]
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "description": {
+      "type": "text"
     }
   }
 }

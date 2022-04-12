@@ -4,7 +4,8 @@
   "info": {
     "singularName": "allergen",
     "pluralName": "allergens",
-    "displayName": "Allergen"
+    "displayName": "Allergen",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
