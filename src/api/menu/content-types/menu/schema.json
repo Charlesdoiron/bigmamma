@@ -150,6 +150,12 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::font.font"
+    },
+    "days": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::day.day",
+      "mappedBy": "menu"
     }
   }
 }
