@@ -8,7 +8,7 @@
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi",
-    "deploy": "git push heroku deploy:main"
+    "deploy": "git push heroku deploy:main -f"
   },
   "devDependencies": {},
   "dependencies": {
@@ -18,7 +18,8 @@
     "@strapi/plugin-users-permissions": "4.1.7",
     "@strapi/strapi": "4.1.7",
     "better-sqlite3": "7.4.6",
-    "pg": "^8.7.3"
+    "pg": "^8.7.3",
+    "pg-connection-string": "^2.5.0"
   },
   "author": {
     "name": "A Strapi developer"
