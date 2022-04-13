@@ -1876,7 +1876,7 @@
     "@strapi/utils" "4.1.7"
     lodash "4.17.21"
 
-"@strapi/plugin-graphql@^4.1.7":
+"@strapi/plugin-graphql@4.1.7":
   version "4.1.7"
   resolved "https://registry.yarnpkg.com/@strapi/plugin-graphql/-/plugin-graphql-4.1.7.tgz#73677e2564340ddc8dc5e5cf118131d6720768e2"
   integrity sha512-vxf95rb8TgwGJIOesga/5N1waJsuKVuJQ3T1GI+vqjXgw3CqcBlxyoQU0uaBnTCTVW2AnOMtjaUg93sCRyWGug==
