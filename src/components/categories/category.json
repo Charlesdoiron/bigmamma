@@ -1,13 +1,13 @@
 {
   "collectionName": "components_categories_categories",
   "info": {
-    "displayName": "Category",
+    "displayName": "category",
     "icon": "air-freshener",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "title": {
+    "titleCatgeory": {
       "type": "string"
     },
     "product": {
@@ -32,14 +32,15 @@
       ]
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "description": {
       "type": "text"

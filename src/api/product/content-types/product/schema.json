@@ -33,7 +33,7 @@
           "localized": true
         }
       },
-      "required": true,
+      "required": false,
       "unique": false
     },
     "allergens": {
@@ -103,11 +103,12 @@
       "required": true
     },
     "gif": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -115,11 +116,12 @@
       }
     },
     "video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "videos"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": true

@@ -16,7 +16,7 @@
     }
   },
   "attributes": {
-    "Category": {
+    "category": {
       "type": "dynamiczone",
       "components": [
         "categories.category"
@@ -156,6 +156,14 @@
       "relation": "oneToMany",
       "target": "api::day.day",
       "mappedBy": "menu"
+    },
+    "font_color": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }
