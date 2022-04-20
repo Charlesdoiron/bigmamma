@@ -19,6 +19,14 @@ module.exports = {
    */
   bootstrap(/*{ strapi }*/) {
     // data.map(async ({ title, description, price }) => {
+    //   await strapi.entityService.create("api::product.product", {
+    //     data: {
+    //       title,
+    //       description,
+    //     },
+    //   });
+    // });
+    // data.map(async ({ title, description, price }) => {
     //   await strapi.entityService.create("api::wine.wine", {
     //     data: {
     //       title,

@@ -8,7 +8,7 @@
     "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {
     "i18n": {
@@ -16,7 +16,7 @@
     }
   },
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
@@ -26,7 +26,7 @@
       "unique": true,
       "required": true
     },
-    "Description": {
+    "description": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
