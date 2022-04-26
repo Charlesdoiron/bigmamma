@@ -127,6 +127,14 @@
           "localized": true
         }
       }
+    },
+    "default_price": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "decimal"
     }
   }
 }

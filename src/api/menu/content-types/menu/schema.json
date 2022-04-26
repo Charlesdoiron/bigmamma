@@ -166,11 +166,24 @@
       "type": "string"
     },
     "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "font": {
+      "allowedTypes": [
+        "files"
       ],
       "type": "media",
       "multiple": false,
