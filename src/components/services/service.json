@@ -12,11 +12,17 @@
       "relation": "oneToOne",
       "target": "api::service.service"
     },
-    "start": {
-      "type": "string"
+    "startHours": {
+      "type": "integer"
     },
-    "end": {
-      "type": "string"
+    "startMinutes": {
+      "type": "integer"
+    },
+    "endHours": {
+      "type": "integer"
+    },
+    "endMinutes": {
+      "type": "integer"
     }
   }
 }
