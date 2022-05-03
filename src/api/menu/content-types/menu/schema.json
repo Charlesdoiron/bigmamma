@@ -182,8 +182,21 @@
       }
     },
     "font": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "files"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "quality_or_nothing": {
+      "allowedTypes": [
+        "images"
       ],
       "type": "media",
       "multiple": false,

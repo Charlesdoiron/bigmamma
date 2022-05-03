@@ -1,5 +1,7 @@
 "use strict";
-const data = require("./data/wine.json");
+const wines = require("./data/wine.json");
+const products = require("./data/products.json");
+const categories = require("./data/categories.json");
 
 const removeDuplicatesFromArray = (arr) =>
   [...new Set(arr.map((el) => JSON.stringify(el)))].map((e) => JSON.parse(e));
@@ -21,30 +23,32 @@ module.exports = {
    * run jobs, or perform some special logic.
    */
   bootstrap(/*{ strapi }*/) {
-    // removeDuplicatesFromArray(data).map(async ({ title }) => {
+    // removeDuplicatesFromArray(categories).map(async ({ title }) => {
     //   await strapi.entityService.create("api::sub-category.sub-category", {
     //     data: {
     //       title,
     //     },
     //   });
     // });
-    // removeDuplicatesFromArray(data).map(
-    //   async ({ title, description, price }) => {
+    // removeDuplicatesFromArray(products).map(
+    //   async ({ title, description, price, description_eng }) => {
     //     await strapi.entityService.create("api::product.product", {
     //       data: {
     //         title,
     //         description,
+    //         price,
     //       },
     //     });
     //   }
     // );
-    // removeDuplicatesFromArray(data).map(
+    // removeDuplicatesFromArray(wines).map(
     //   async ({ title, description, price }) => {
     //     await strapi.entityService.create("api::wine.wine", {
     //       data: {
     //         title,
     //         description,
     //         price,
+    //         locale: "fr",
     //       },
     //     });
     //   }
