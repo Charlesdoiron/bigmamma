@@ -215,7 +215,7 @@
       },
       "type": "text"
     },
-    "show_allergens_button": {
+    "show_calories_button": {
       "pluginOptions": {
         "i18n": {
           "localized": true
