@@ -23,6 +23,11 @@
     },
     "endMinutes": {
       "type": "integer"
+    },
+    "days": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::day.day"
     }
   }
 }
