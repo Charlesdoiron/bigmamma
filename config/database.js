@@ -1,6 +1,6 @@
 module.exports = ({ env }) => {
   // Config for production
-  if (env("NODE_ENV") !== "production") {
+  if (env("NODE_ENV") === "production") {
     return {
       connection: {
         client: "postgres",
