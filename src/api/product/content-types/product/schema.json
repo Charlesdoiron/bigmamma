@@ -23,7 +23,7 @@
           "localized": true
         }
       },
-      "unique": true,
+      "unique": false,
       "required": true
     },
     "description": {
