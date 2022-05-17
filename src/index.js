@@ -31,12 +31,12 @@ module.exports = {
     //   });
     // });
     // removeDuplicatesFromArray(products).map(
-    //   async ({ title, description, price, description_eng }) => {
+    //   async ({ title, description, default_price }) => {
     //     await strapi.entityService.create("api::product.product", {
     //       data: {
     //         title,
     //         description,
-    //         price,
+    //         default_price: default_price.toString(),
     //       },
     //     });
     //   }

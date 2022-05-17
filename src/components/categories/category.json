@@ -7,7 +7,7 @@
   },
   "options": {},
   "attributes": {
-    "titleCatgeory": {
+    "title": {
       "type": "string"
     },
     "product": {
@@ -48,6 +48,9 @@
     "force_open": {
       "type": "boolean",
       "default": false
+    },
+    "force_show": {
+      "type": "boolean"
     }
   }
 }

@@ -1,1815 +1,567 @@
 [
   {
-    "title": "Stracciatella fumée",
-    "type": "V",
-    "price": 7,
-    "description": "Juste le crémeux de la burrata, à la petite cuillère",
-    "description_eng": "The creamy heart of the burrata, to eat endlessly"
+    "title": "SMOKY STRACIATELLA",
+    "description": "The heart of the Burrata - creamy, smoky, delicious.",
+    "default_price": 7
   },
   {
-    "title": "Mortadella al pistacchio",
-    "type": "",
-    "price": 6,
-    "description": "Mortadella de notre producteur Ibis Salumi et éclats de pistache. No need for more.",
-    "description_eng": "Mortadella from our producer Ibis Salumi and pistachio flakes. No need for more."
+    "title": "LA GRANDE BURRATA",
+    "description": "A HUGE 250g Burrata fresh out of Puglia. Served on a bed made out of san marzano and cherry tomatoes, bread, basil and grated parmigiano reggiano.",
+    "default_price": "13,5"
   },
   {
-    "title": "Duo de salame",
-    "type": "",
-    "price": 7,
-    "description": "Saucissons toscans à la truffe et au fenouil, dai fratelli Gombitelli",
-    "description_eng": "Truffle and fennel sausages, straight from Tuscany, dai fratelli Gombitelli"
+    "title": "Prosciutto di Parma 24 Mesi DOP and Bresaola punte d'anca",
+    "description": "Meet the Rolls-Royce of charcuterie. Mild, refined, moist ham that got a royal treatment. Vroom vroom.",
+    "default_price": 8
   },
   {
-    "title": "Prosciutto di Parma DOP 24 mesi",
-    "type": "",
-    "price": 8,
-    "description": "L'inoubliable jambon en direct de la province de Parme, fondant à souhait",
-    "description_eng": "The memorable ham straight from the province of Parma, super soft"
+    "title": "Buoni prodotti",
+    "description": "A fluffy, soft, warm focaccia filled with delicious stracchino cheese. All said.",
+    "default_price": 11
   },
   {
-    "title": "Bresaola de bœuf Punta d'Anca",
-    "type": "",
-    "price": 8,
-    "description": "Bœuf séché légèrement salé, assaisonné d'un filet d'huile d'olive et de zestes de citron vert",
-    "description_eng": "Lightly salted beef jerky seasoned with a drizzle of olive oil and lime zest"
+    "title": "ITALIAN THREESOME",
+    "description": "Dry cured italian fine ham from Udine made by Rino Bagatto, buffalo mozzarella from Salvatore Corso in Napoli and deep fried pizza dough. The best combo the Italians ever had.",
+    "default_price": ""
   },
   {
-    "title": "Burrata di primavera",
-    "type": "",
-    "price": 9,
-    "description": "Crémeuse burrata de 125gr aux asperges vertes. Un bonheur.",
-    "description_eng": "Creamy burrata 125gr with green asparagus. Happiness."
+    "title": "God save Bruschetta",
+    "description": "Roasted bread, cherry tomato confit, classic italian pesto and mozzarella fior di latte",
+    "default_price": 8
   },
   {
-    "title": "Big-rrata",
-    "type": "V",
-    "price": "12,5",
-    "description": "Énorme burrata de 250gr, éclats de noisettes, pousses de marjolaine, filet d'huile aux herbes e basta",
-    "description_eng": "Huge 250gr burrata, hazelnut flakes, marjoram shoots, drizzle of herbal oil e basta"
+    "title": "Big balls",
+    "description": "Three fried arancini balls, filled with risotto rice, mild Caciocavallo cheese and creamy truffle sauce. Oh dio mio!",
+    "default_price": 9
   },
   {
-    "title": "Burrata al tartufo",
-    "type": "V",
-    "price": 10,
-    "description": "Indécente burrata de 125gr à la crème de truffe, truffe fraîche de saison et petites herbes",
-    "description_eng": "Indecent 125g burrata with truffle cream, fresh seasonal truffle and little herbs"
+    "title": "Fry hard or die tryin",
+    "description": "Neapolitan Panzerotto filled with aubergine caviar - the softest part of the aubergines inside - spiced up with tarragon, served with a spicy red pepper sauce",
+    "default_price": 7
   },
   {
-    "title": "Oh bella focaccia",
-    "type": "V",
-    "price": "3,5",
-    "description": "La best friend de nos buoni prodotti : une focaccia toute chaude à partager",
-    "description_eng": "The best friend of our buoni prodotti a hot focaccia to share"
+    "title": "VEGAN INSALATA",
+    "description": "Fresh salad with summer vegetables: zucchini, eggplant and cucumber served with an ultra-creamy hummus",
+    "default_price": 8
   },
   {
-    "title": "Carciofi alla romana",
-    "type": "V",
-    "price": 8,
-    "description": "Bande organisée d'artichauts alla romana frits, délicieuse salsa cacio e pepe",
-    "description_eng": "Organized band of fried artichokes alla romana, delicious salsa cacio e pepe"
+    "title": "Polpette Party",
+    "description": "Our classic italian beef meatballs, served with a juicy sauce of san marzano tomatoes and lots of grated parmigiano reggiano from the Gennari Family in Parma.",
+    "default_price": 9
   },
   {
-    "title": "Piccola insalata",
-    "type": "V",
-    "price": 7,
-    "description": "Fraîche salade de puntarelle, mozza di bufala bien juteuse, câpres frites au miel, crispy morceaux de pain, cerfeuil frais / supplément anchois + 1,5€",
-    "description_eng": "Fresh puntarelle salad, juicy mozza di bufala, puntarelle, fried capers with honey, crispy pieces of bread, fresh chervil / extra anchovies + 1,5€"
+    "title": "LA DOLCEVICHE",
+    "description": "Fresh lettuce stuffed with char, rocket salad and tarragon. Topped off with a light bernaise sauce",
+    "default_price": ""
   },
   {
-    "title": "Brusch-chicka wah wah",
-    "type": "V",
-    "price": 8,
-    "description": "Grosse tranche de pain de campagne grillée, fondante mozza di bufala, petites tomates confites, pesto de basilic",
-    "description_eng": "Large slice of toasted country bread, melting mozza di bufala, little confit tomatoes, basil pesto"
+    "title": "Crazy San Marzano",
+    "description": "Typical Sicilian pasta with a sauce made out of the juiciest san marzano tomatoes.  Topped with stracciatella, parmigiano reggiano, fresh basil and deep fried aubergine",
+    "default_price": "13,5"
   },
   {
-    "title": "Bruschetta Ricotta Johnson",
-    "type": "V",
-    "price": 9,
-    "description": "Croustillante bruschetta recouverte de ricotta di bufala aromatisée aux zestes d'orange et olives taggiasche, asperges vertes gratinées au parmigiano",
-    "description_eng": "Crunchy bruschetta covered with ricotta di bufala flavored with orange peel and taggiasche olives, green asparagus grated with parmigiano"
+    "title": "SANTA SAN MARZANO",
+    "description": "Spaghetti with a sauce made out of the juiciest san marzano tomatoes. Topped with creamy stracciatella cheese and fresh basil",
+    "default_price": "11,5"
   },
   {
-    "title": "Arancini al tartufo",
-    "type": "V",
-    "price": 10,
-    "description": "Dodues boulettes de riz frites, cœur crémeux de fromage fontina et salsa al tartufo, truffe fraîche on top. Oh dio mio !",
-    "description_eng": "Plump fried rice balls, creamy heart of fontina cheese and salsa al tartufo, fresh truffle on top. Oh dio mio!"
+    "title": "THE PESTO'S YET TO COME",
+    "description": "Cavatelli with green pesto made out of fresh basil, pine nuts, garlic, parmigiano, pecorino romano and extra virgin olive oil",
+    "default_price": "12,5"
   },
   {
-    "title": "Frittatina Turner",
-    "type": "",
-    "price": 7,
-    "description": "Big beignets de bucatini frits, crème aux épinards, mortadella, provola fumée, zestes de citron jaune",
-    "description_eng": "Big fried bucatini fritters, spinach cream, mortadella, smoked provola, lemon zest"
+    "title": "Sexy Paccheri",
+    "description": "Pasta with spicy fennel salsiccia, san marzano tomatoes, confit lemon and parmigiano reggiano",
+    "default_price": "14,5"
   },
   {
-    "title": "Bocconcini di mozza fritti",
-    "type": "",
-    "price": 7,
-    "description": "Baby boulettes de mozzarella di bufala panées et frites, acoquinées d'une délicieuse crème de poivrons rouges",
-    "description_eng": "Breaded and fried baby mozzarella di bufala balls served with a delicious red bell pepper cream"
+    "title": "Ravioli ai tre fromaggi",
+    "description": "Ravioli filled with stracchino, ricotta al limone and parmigiano in a delicious butter and sage sauce.",
+    "default_price": 15
   },
   {
-    "title": "L'iconique vitello tonnato",
-    "type": "",
-    "price": 11,
-    "description": "Fines tranches de noix de veau cuite à basse température, salsa tonnata, câpres, olives taggiasche, petites feuilles de puntarelle",
-    "description_eng": "Thin slices of veal cooked at low temperature, salsa tonnata, capers, taggiasche olives, little leaves of puntarelle"
+    "title": "Filippo‘s big balls",
+    "description": "Pappardelle with meatballs made from Simmentaler beef, free range pork and veal. In a tomato sauce and topped with freshly grated Parmigiano Reggiano",
+    "default_price": 16
   },
   {
-    "title": "Daurade l'exploratrice",
-    "type": "",
-    "price": 11,
-    "description": "Ceviche de daurade hyper frais, oignons rouges, piment vert, physalis et coriandre, le tout arrosé d'une citronnette",
-    "description_eng": "Very fresh ceviche sea bream, red onions, green chilli pepper, cape gooseberry and coriander, all drizzled with lemon grass"
+    "title": "BLACK MAMBA",
+    "description": "Square Spaghetti with squid ink, grilled squid, peas, tomato confit and fresh clams",
+    "default_price": "18,5"
   },
   {
-    "title": "Carpaccio di gamberi",
-    "type": "",
-    "price": 13,
-    "description": "Tonique carpaccio de gamberi rossi crudi, kumquats et herbes fraîches, servi avec un croquant pane carasau typique de Sardaigne",
-    "description_eng": "Tonic carpaccio of gamberi rossi crudi, kumquats and fresh herbs, served with a crunchy pane carasau typical of Sardinia"
+    "title": "LUNCH BLACK MAMBA",
+    "description": "Square Spaghetti with squid ink, grilled squid, peas, tomato confit",
+    "default_price": "16,5"
   },
   {
-    "title": "Eddy de Pesto",
-    "type": "V",
-    "price": "12,5",
-    "description": "Pappardelle verdi aux épinards, recouvertes de pesto de basilic frais et ricotta salata / supplément stracciatella + 3€",
-    "description_eng": "Spinach pappardelle verde covered with fresh basil pesto and ricotta salata / extra straccia + 3€"
+    "title": "The Famous Truffle Pasta",
+    "description": "OUR SUPERSTAR: home-made mafaldine pasta, truffle mascarpone sauce, topped with even more fresh, black molise truffle",
+    "default_price": 19
   },
   {
-    "title": "Linguine al pomodoro e stracciatella",
-    "type": "V",
-    "price": "13,5",
-    "description": "Démentes linguine, salsa al pomodoro, mignonnes tomates Datterino confites, stracciatella fumée, huile infusée à l'ail et crème de basilic",
-    "description_eng": "Insane linguine, salsa al pomodoro, cute confit Datterino tomatoes, smoked stracciatella, oil infused with garlic and basil cream"
+    "title": "LA CARBONARA CLASSICA",
+    "description": "Home-made rigatoni, crispy guanciale, egg yolk and a lot of freshly grated pepper",
+    "default_price": "14,5"
   },
   {
-    "title": "La fameuse pâte à la truffe",
-    "type": "V",
-    "price": 19,
-    "description": "Mafalde fresche, truffe fraîche de saison, crème de truffe noire, mascarpone et petits champignons",
-    "description_eng": "Mafalde fresche, fresh seasonal truffle, black truffle cream, mascarpone and little mushrooms"
+    "title": "La Gran Carbonara",
+    "description": "Homemade Rigatoni chitarra with egg yolk, pecorino cheese and crispy guanciale served straight from the pecorino wheel - grande!",
+    "default_price": 33
   },
   {
-    "title": "Plin alla norma",
-    "type": "V",
-    "price": "15,5",
-    "description": "Longues pâtes farcies à la ricotta di bufala et aubergines, juicy sauce de tomates Datterino et ricotta salata râpée",
-    "description_eng": "Long pasta stuffed with ricotta di bufala and eggplant, juicy Datterino tomato sauce and grated ricotta salata"
+    "title": "EAT YOUR GREENS",
+    "description": "BIG BIG salad with corn, beetroot leaves, french beans, pickled red onion, sugar snaps, green peas, crunchy garlic croutons and cherry tomato confit, spiced up with vegan aioli. \nMore sexy add-ons (€3.00 each): smoked char, chicken, Mozzarella di bufala",
+    "default_price": 13
   },
   {
-    "title": "Ragù Ball Z",
-    "type": "",
-    "price": "14,5",
-    "description": "Paccheri au coquin ragù de saucisse de cochon, fenouil sauvage, pecorino râpé",
-    "description_eng": "Paccheri with naughty pig's sausage ragù, wild fennel, grated pecorino"
+    "title": "IL CARPACCIONE",
+    "description": "Beef carpaccio topped with rucola, homemade balsamic vinegar reduction, cherry tomato confit and parmigiano flakes. So classy.",
+    "default_price": 15
   },
   {
-    "title": "Gnocchi allo scoglio",
-    "type": "",
-    "price": "17,5",
-    "description": "Tendres gnocchi au ragù full-fish, palourdes, seiche, bar, fumet de poissons et poudre de tomates",
-    "description_eng": "Tender gnocchi with full-fish ragù, clams, cuttlefish, sea bass, fish stock and tomato powder"
+    "title": "SCALOPPINA MILANESE",
+    "description": "Huge veal cutlet Milanese style with lemon zests, fried sage, arugula and small candied tomatoes",
+    "default_price": 29
   },
   {
-    "title": "Mammargherita",
-    "type": "V",
-    "price": "12,5",
-    "description": "Mozza fior di latte, sauce de tomates San Marzano, parmigiano, basilic frais",
-    "description_eng": "Mozza fior di latte, San Marzano tomato sauce, parmigiano, fresh basil"
+    "title": "PESCE SEMPLICE",
+    "description": "Sea bream filet served in \"ACQUA PAZZA\" - fish stock, early poatoes, cherry tomatoes, black taggiasche olives, confit garlic, topped with parsley and chives",
+    "default_price": 17
   },
   {
-    "title": "Marinara Grande",
-    "type": "V",
-    "price": "9,5",
-    "description": "Sauce de tomates San Marzano, ail, origan, filet d'huile verte au persil / supplément anchois + 3€",
-    "description_eng": "San Marzano tomato sauce, garlic, oregano, drizzle of green oil with parsley / extra anchovies + 3€"
+    "title": "PESCE ALLA GRIGLIA",
+    "description": "Dorade in guazze, \n sea bream straight from the grill, cherry tomatoes, black taggiasche olive, confit garlic, topped with parsley and chives",
+    "default_price": 26
   },
   {
-    "title": "CheesyJet",
-    "type": "V",
-    "price": "13,5",
-    "description": "Mozza fior di latte, ricotta au poivre, taleggio, parmigiano, zestes de citron et filet d'huile de livèche",
-    "description_eng": "Mozza fior di latte, ricotta with pepper, taleggio, parmigiano, drizzle of lovage oil"
+    "title": "TIME FRIES",
+    "description": "New potato, garlic, and rosemary",
+    "default_price": 5
   },
   {
-    "title": "Hot School Musical",
-    "type": "",
-    "price": "14,5",
-    "description": "Crème d'oignons rouges, poivrons rouges rôtis, salame piccante de Vittorio Calla, olives taggiasche, filet d'huile verte à l'estragon",
-    "description_eng": "Red onion cream, roasted red peppers, salame piccante of Vittorio Calla, taggiasche olives, green oil with tarragon"
+    "title": "INSALATA PICCOLA",
+    "description": "Rucola, cherry tomatoes topped with flakes of parmigiano reggiano",
+    "default_price": 5
   },
   {
-    "title": "Bufalina 2.0",
-    "type": "",
-    "price": "16,5",
-    "description": "Sauce de tomates San Marzano, prosciutto crudo, mozza di bufala bien juteuse, origan",
-    "description_eng": "San Marzano tomato sauce, prosciutto crudo, juicy mozza di bufala, oregano"
+    "title": "MAMMARGHERITA",
+    "description": "San marzano tomatoes, mozzarella di bufala, fresh basil and parmigiano reggiano. Simply the Best",
+    "default_price": "12,5"
   },
   {
-    "title": "Drama queen",
-    "type": "",
-    "price": 16,
-    "description": "Base bianca à la mozza fior di latte, petits champignons de Paris, jambon cuit aux herbes, ciboulette",
-    "description_eng": "Bianca base with mozza fior di latte, button mushrooms, ham cooked with herbs, chives"
+    "title": "MAMMA MIA MARGHERITA",
+    "description": "San marzano tomatoes, mozzarella di bufala, fresh basil and parmigiano reggiano.",
+    "default_price": "11,5"
   },
   {
-    "title": "Veggie paradise",
-    "type": "V",
-    "price": "15,5",
-    "description": "Sauce de tomates San Marzano, stracciatella fumée, aubergines frites, parmigiano",
-    "description_eng": "San Marzano tomato sauce, smocked stracciatella, fried eggplant, parmigiano"
+    "title": "NONNA NORMA",
+    "description": "San marzano tomatoes, fior di latte mozzarella, deep fried aubergines and salted dry ricotta",
+    "default_price": "13,5"
   },
   {
-    "title": "Moment of truffe",
-    "type": "V",
-    "price": 19,
-    "description": "Crème de truffe noire, ricotta, mozza fior di latte, champignons de Paris, truffe fraîche de saison, ciboulette",
-    "description_eng": "Black truffle cream, ricotta, mozza fior di latte, button mushrooms, fresh seasonal truffle, chives"
+    "title": "ALLA NORMA",
+    "description": "San marzano tomatoes, fior di latte mozzarella, deep fried aubergines and salted dry ricotta",
+    "default_price": "12,5"
   },
   {
-    "title": "Carpaccio di manzo",
-    "type": "",
-    "price": 15,
-    "description": "Carpaccio de bœuf ultra fondant, courgettes alla scapece, salsa di caciocavallo, éclats de noisettes, petites feuilles de mizuna et herbes fraîches",
-    "description_eng": "Smooth beef carpaccio, zucchini alla scapece, salsa di caciocavallo, hazelnut flakes, little mizuna leaves and fresh herbs"
+    "title": "BAD GAL REGINA",
+    "description": "Pizza bianca with creme fraiche, fior di latte mozzarella, cooked ham, raw mushrooms and chives",
+    "default_price": 16
   },
   {
-    "title": "Al carpaccio",
-    "type": "",
-    "price": 15,
-    "description": "Fondant carpaccio de bœuf, réduction de vinaigre balsamique, mignonnes tomates Datterino confites, roquette et big copeaux de parmigiano",
-    "description_eng": "Smooth beef carpaccio, balsamic vinegar reduction, confit Datterino tomatoes, arugula and big parmigiano shavings"
+    "title": "REGINA GEORGE",
+    "description": "Pizza bianca made with creme fraiche, fior di latte mozzarella, cooked ham, raw mushrooms and chives",
+    "default_price": 14
   },
   {
-    "title": "La caprese du turfu",
-    "type": "V",
-    "price": 13,
-    "description": "Stracciatella fumée, tomates anciennes, poudre et pesto de basilic frais, olives taggiasche, pignons de pin",
-    "description_eng": "Smoked stracciatella, old tomatoes, fresh basil powder and pesto, taggiasche olives, pine nuts"
+    "title": "DROP IT LIKE IT'S HOT",
+    "description": "San marzano sauce mixed with nduja salami, fior di latte, red onion confit, watercress pesto and salame picante",
+    "default_price": "14,5"
   },
   {
-    "title": "Holy fish",
-    "type": "",
-    "price": 19,
-    "description": "Bar entier rôti au four et sa clique de pommes de terre rôties, poireaux confits, citronette bien punchy",
-    "description_eng": "Oven-roasted whole sea bass with its roasted potato team, confit leeks and punchy lemon grass"
+    "title": "PIZZA VEGAN VIBES",
+    "description": "San marzano tomatoes, aubergines and courgettes grilled, olives taggiasche and vegan basil pesto / add extra stracciatella + 2€",
+    "default_price": "13,5"
   },
   {
-    "title": "Spiedino di seppia",
-    "type": "",
-    "price": 21,
-    "description": "Giga brochette de seiche servie avec des pommes de terre rôties et poireaux confits",
-    "description_eng": "Big cuttlefish skewer served with roasted potatoes and confit leeks"
+    "title": "YUNG TRUFF",
+    "description": "Truffle sauce mixed with raw ricotta, baked oyster mushrooms, fior di latte mozzarella and chives",
+    "default_price": 19
   },
   {
-    "title": "Du beef, du-du-du beef",
-    "type": "",
-    "price": 18,
-    "description": "Affriolante hampe de bœuf grillée, acoquinée de salsa verde, pommes de terre rôties et poireaux confits",
-    "description_eng": "Grilled beef skirt, served with salsa verde, roasted potatoes and confit leeks"
+    "title": "TUNA-IGHT IS THE NIGHT",
+    "description": "San marzano sauce, mozzarella fior di latte, tuna, caramelised shallots, taggiasche black olive, chives and lemon zest",
+    "default_price": "15,5"
   },
   {
-    "title": "Il tigramisù",
-    "type": "",
-    "price": "7,5",
-    "description": "Le grand classique della casa, avec sa touche de marsala",
-    "description_eng": "The great classic della casa with its touch of marsala"
+    "title": "IL TIGRAMISU",
+    "description": "The unbeatable, all time classic della casa",
+    "default_price": 7
   },
   {
-    "title": "Panna cotta di agrumi",
-    "type": "",
-    "price": "8,5",
-    "description": "Soyeuse panna cotta à la vanille recouverte d'un coulis d'agrumes pomelos, oranges et zestes de citron",
-    "description_eng": "Silky vanilla panna cotta covered with a citrus pomelos, oranges and lemon zest coulis"
+    "title": "CHOCO CLAP CLAP",
+    "description": "A succulent cake made dark and milk chocolate, salted butter caramel, coffee and hazelnut, with a crunchy praline and on top a delicously whipped mascarpone cream",
+    "default_price": "8,5"
   },
   {
-    "title": "Lady Baba",
-    "type": "",
-    "price": "8,5",
-    "description": "Joufflu baba au rhum et à la vanille, chantilly ultra légère",
-    "description_eng": "Chubby rum and vanilla baba with ultra light whipped cream"
+    "title": "DOLCI ALL IN",
+    "description": "You can have it all: Our mini Tiramisu, Panacotta and Cantucci",
+    "default_price": 6
   },
   {
-    "title": "Pineapple express",
-    "type": "VEG",
-    "price": "7,5",
-    "description": "Juicy carpaccio d’ananas, jus de fruit de la passion légèrement épicé, crème fouettée vegan, crunchy crumble de coco",
-    "description_eng": "Juicy pineapple carpaccio, lightly spiced passion fruit juice, vegan whipped cream, crunchy coconut crumble"
+    "title": "HEILIGE PANNA COTTA",
+    "description": "We present you the most audacious of our dolci: an ultra creamy vanilla panna cotta with fresh fruits and seasonal truffle",
+    "default_price": 8
   },
   {
-    "title": "Choco clap clap",
-    "type": "",
-    "price": "8,5",
-    "description": "Inimitable tarte au chocolat noir et lait, caramel beurre salé, praliné croustillant café et noisette, crème fouettée au mascarpone",
-    "description_eng": "Inimitable dark and milk chocolate tart, salted butter caramel, coffee and hazelnut crunchy praline, mascarpone whipped cream"
+    "title": "FRAGOLE E POMODORI",
+    "description": "Fresh strawberry, green tomatoes, basil jelly and vegan mascarpone cream",
+    "default_price": 8
   },
   {
-    "title": "L'incroyable tarte au citron",
-    "type": "",
-    "price": "7,5",
-    "description": "Bien acidulée, croustillante, inoubliable couche de meringue",
-    "description_eng": "Tart, crispy, unforgettable layer of meringue"
+    "title": "Say Cheeeeese-cake",
+    "description": "Your extra dose of mascarpone and cream cheese, Big Mamma spread topped with hazelnut flakes",
+    "default_price": "7,5"
   },
   {
-    "title": "Gelato alla nocciola del Piemonte",
-    "type": "",
-    "price": "7,5",
-    "description": "Glace aux noisettes du Piémont, pezzi de brownie et noisettes caramélisées",
-    "description_eng": "Piedmont hazelnut ice cream, brownie and caramelized hazelnuts"
+    "title": "THE ISLAND",
+    "description": "A giant slice of île flottante - a floating Island, made out of white eggs, swimming in english cream, topped with delicious caramelized Popcorn and drizzled with salted vanilla sauce",
+    "default_price": 7
   },
   {
-    "title": "Gelato tutto pistacchio",
-    "type": "",
-    "price": "7,5",
-    "description": "Glace à la pistache, décadent cremino de pistacchio, éclats de pistaches",
-    "description_eng": "Pistachio ice cream, decadent cremino de pistacchio, pistachio flakes"
+    "title": "GELATO ALLA NOCCIOLA",
+    "description": "Homemade hazelnut ice cream of the day - so creamy, so delicious.",
+    "default_price": "7,5"
   },
   {
-    "title": "Sorbetto limone e basilico",
-    "type": "",
-    "price": "7,5",
-    "description": "Sorbet au citron et basilic frais, petites meringues ultra légères",
-    "description_eng": "Lemon sorbet with fresh basil, very light little meringues"
+    "title": "GELATO AL PISTACCHIO",
+    "description": "Homemade Pistacchio ice cream of the day - our favourite forever.",
+    "default_price": "7,5"
   },
   {
-    "title": "Baby mozzarella",
-    "type": "V",
-    "price": 8,
-    "description": "Juteuse mozzarella di bufala de 125g et gelée de tomates bien fraîche",
-    "description_eng": "Juicy mozzarella di bufala of 125g and very fresh tomato jelly"
+    "title": "STRACCIATELLA AFFUMICATA",
+    "description": "The heart of the Burrata - creamy, smoky, delicious.",
+    "default_price": 7
   },
   {
-    "title": "Green eyed peas",
-    "type": "V",
-    "price": "12,5",
-    "description": "Énorme burrata de 250gr, crème de petits pois, menthe et basilic",
-    "description_eng": "Huge burrata of 250gr, peas cream, mint and basil"
+    "title": "LA GRANDE BURRATA",
+    "description": "A HUGE 250g Burrata fresh out of Puglia. Served on a bed made out of san marzano and cherry tomatoes, bread, basil and grated parmigiano reggiano. Big enough to share with your loved ones!",
+    "default_price": "13,5"
   },
   {
-    "title": "Salame al finocchio",
-    "type": "",
-    "price": 7,
-    "description": "Saucisson toscan au fenouil, dalla salumeria Falorni",
-    "description_eng": "Tuscan sausage with fennel, dalla salumeria Falorni"
+    "title": "Prosciutto di Parma 24 Mesi DOP & Bresaola punta d'anca",
+    "description": "Meet the Rolls-Royce of charcuterie. Mild, refined, moist ham that got a royal treatment. Vroom vroom.",
+    "default_price": 8
   },
   {
-    "title": "Empabadass",
-    "type": "V",
-    "price": 7,
-    "description": "Big empanadas bien juicy farcies au caviar d'aubergines et mozza fior di latte, acoquinées d'une sauce de tomates Datterino confites",
-    "description_eng": "Big juicy empanadas stuffed with eggplant caviar and mozza fior di latte, served with a confit Datterino tomato sauce"
+    "title": "Foccacia di recco",
+    "description": "A fluffy, soft, warm focaccia filled with delicious stracchino cheese. Perfect to share with your friends!",
+    "default_price": 11
   },
   {
-    "title": "Maritozzo alla nerano",
-    "type": "V",
-    "price": 9,
-    "description": "Joufflue brioche typique de Napoli, fourrée à la crème de courgettes et provolone filante, courgettes frites et basilic frais on top",
-    "description_eng": "Chubby bun typical of Naples, filled with cream of zucchini and provolone filante, fried zucchini and fresh basil on top"
+    "title": "Antipasto Misto",
+    "description": "Dry cured italian fine ham from Udine made by Rino Bagatto, buffalo mozzarella from Salvatore Corso in Napoli and deep fried pizza dough. The best combo the Italians ever had.",
+    "default_price": 12
   },
   {
-    "title": "Squid game",
-    "type": "",
-    "price": 11,
-    "description": "Mignons encornets farcis aux anchois et câpres, olives taggiasche et persil on top, servi avec un soyeux houmous de pois chiches. Un bonheur.",
-    "description_eng": "Cute squid stuffed with anchovies and capers, taggiasche olives and parsley on top, served with a silky chickpea hummus. Happiness."
+    "title": "God save Bruschetta",
+    "description": "Roasted bread, cherry tomato confit, classic italian pesto and mozzarella fior di latte",
+    "default_price": 8
   },
   {
-    "title": "Pomodori ripieni",
-    "type": "V",
-    "price": 8,
-    "description": "Jolies tomates farcies à la pappa al pomodoro - compotée de pain perdu aux tomates San Marzano, ail, filet d'huile d’olive -, recouvertes d'un décadent pistou de basilic et cébette",
-    "description_eng": "Lovely tomatoes stuffed with pappa al pomodoro - compote of French toast with San Marzano tomatoes, garlic and a drizzle of olive oil -, covered with a decadent basil and cebette pistou"
+    "title": "Arancini Siciliani",
+    "description": "Three fried arancini balls, filled with risotto rice, mild caciocavallo cheese and creamy truffle sauce. Oh dio mio!",
+    "default_price": 9
   },
   {
-    "title": "Beef don't kill my vibe",
-    "type": "",
-    "price": 11,
-    "description": "Tartare de bœuf coupé au couteau, fondant à souhait, anchois, câpres, oignons rouges, le tout servi dans un croquant tacos de pain de campagne",
-    "description_eng": "Melting beef tartar cut with knife, anchovies, capers, red onions, all served in a crunchy taco of country bread"
+    "title": "CAPRI CAPRESE",
+    "description": "Classic italian caprese salad with rainbow tomatoes, mozzarella di bufala, basil pesto, maldon salt and black pepper",
+    "default_price": 6
   },
   {
-    "title": "Pesto Picasso",
-    "type": "V",
-    "price": "13,5",
-    "description": "Busiate au bon pesto de courgettes et basilic, tomates Datterino confites, petites herbes fraîches / supplément stracciatella fumée + 3€",
-    "description_eng": "Busiate with a good zucchini and basil pesto, confit Datterino tomatoes, fresh herbs / extra smoked stracciatella + 3€"
+    "title": "Pavarotti Panzerotto",
+    "description": "Neapolitan Panzerotto filled with aubergine caviar - the softest part of the aubergines inside - spiced up with tarragon, served with a spicy red pepper sauce",
+    "default_price": 7
   },
   {
-    "title": "Tonnarelli alla bolognese",
-    "type": "",
-    "price": "14,5",
-    "description": "La version twistée de la bolognaise : déments tonnarelli au ragù de veau, bœuf et sauce de tomates San Marzano, parmigiano râpé on top",
-    "description_eng": "The twisted version of the bolognese: insane tonnarelli with veal, beef and San Marzano tomato sauce ragù, grated parmigiano on top"
+    "title": "Ciao Carciofi",
+    "description": "Delicious pan fried and raw slices of artichokes. Served with a citronette sauce and parmigiano reggiano, lemon and mint",
+    "default_price": 8
   },
   {
-    "title": "Riso al salto al safran",
-    "type": "V",
-    "price": "13,5",
-    "description": "Galette de risotto au safran typique de Milano, crispy à l'extérieur et fondante à l'intérieur, recouverte d'une crème de parmigiano et fromage Branzi / supplément truffe fraîche + 5€",
-    "description_eng": "Saffron risotto galette typical of Milan, crispy on the outside and melting on the inside, covered with a cream parmigiano and Branzi cheese / extra fresh truffle + 5€"
+    "title": "Polpette Party",
+    "description": "Our classic italian beef meatballs, served with a juicy sauce of san marzano tomatoes and lots of grated parmigiano reggiano from the Gennari Family in Parma.",
+    "default_price": 9
   },
   {
-    "title": "Magnifica carbonara",
-    "type": "",
-    "price": "15,5",
-    "description": "Tonnarelli, magnifique carbonara classica aux jaunes d'œufs, crispy guanciale de notre producteur Falorni, pecorino, parmigiano et poivre noir",
-    "description_eng": "Tonnarelli, fantastic carbonara classica with egg yolks, crispy guanciale from our producer Falorni, pecorino, parmigiano and black pepper"
+    "title": "Heart-a-taco",
+    "description": "Crispy Tacos made out of cornflakes, stuffed with char, rocket salad and tarragon. Topped off with a light bernaise sauce",
+    "default_price": 11
   },
   {
-    "title": "Gigi(rella) l'amorosa",
-    "type": "",
-    "price": "16,5",
-    "description": "Pimpante girella farcie à l'osso buco typique de Lombardie, ricotta et marjolaine on top, le tout arrosé d'un jus de viande et d'une délicieuse salsa cacio e pepe",
-    "description_eng": "Dashing girella stuffed with typical Lombardy osso buco, ricotta and marjoram on top, all drizzled with a meat juice and a delicious salsa cacio e pepe"
+    "title": "Crazy San Marzano",
+    "description": "Typical Sicilian pasta with a sauce made out of the juiciest san marzano tomatoes. Topped with stracciatella, parmigiano reggiano, fresh basil and deep fried aubergine",
+    "default_price": "12,5"
   },
   {
-    "title": "Caprese des dieux",
-    "type": "V",
-    "price": "13,5",
-    "description": "Mozza fior di latte, tomates cœur de bœuf, pesto de basilic, mozza di bufala bien juteuse",
-    "description_eng": "Mozza fior di latte, beef heart tomatoes, basil pesto, juicy mozza di bufala"
+    "title": "SANTA SAN MARZANO",
+    "description": "Spaghetti with a sauce made out of the juiciest san marzano tomatoes. Topped with creamy stracciatella cheese and fresh basil",
+    "default_price": "11,5"
   },
   {
-    "title": "Lemon de Beauvoir",
-    "type": "V",
-    "price": "14,5",
-    "description": "Ricotta au citron, fromage Taleggio, parmigiano, mozza fior di latte, zestes de citron",
-    "description_eng": "Ricotta with lemon, Taleggio cheese, parmigiano, fior di latte mozzarella, lemon zest"
+    "title": "Pesto Bello",
+    "description": "Cavatelli with green pesto made out of fresh basil, pine nuts, garlic, parmigiano, pecorino romano and extra virgin olive oil",
+    "default_price": 11
   },
   {
-    "title": "Salsiccia Keys",
-    "type": "",
-    "price": "13,5",
-    "description": "Sauce de tomates San Marzano et nduja, salsiccia de cochon, aubergines frites, provola fumée",
-    "description_eng": "San Marzano and nduja tomato sauce, pig salsiccia, fried eggplant, smoked provola"
+    "title": "NORMA GIORGIA",
+    "description": "Paccheri with a sauce made out of the juiciest san marzano tomatoes, deep fried aubergine and salted ricotta",
+    "default_price": "12,5"
   },
   {
-    "title": "La reine de ton cœur",
-    "type": "",
-    "price": 16,
-    "description": "Sauce de tomates San Marzano, mozza fior di latte, jambon cuit aux herbes, carpaccio de champignons de Paris, ciboulette",
-    "description_eng": "San Marzano tomato sauce, mozza fior di latte, cooked ham with herbs, button mushroom carpaccio, chives"
+    "title": "Sexy Paccheri",
+    "description": "Pasta with spicy fennel salsiccia, san marzano tomatoes, confit lemon and parmigiano reggiano",
+    "default_price": "14,5"
   },
   {
-    "title": "Le tian est bon, le ciel est bleu",
-    "type": "V",
-    "price": 14,
-    "description": "Délicieux tian de légumes rôtis pimpé à l'italienne : aubergines, courgettes vertes et jaunes, tomates, crème de poivrons rouges et tomates, mozza fior di latte gratinée on top",
-    "description_eng": "The twisted version of the tian : roasted vegetables - eggplant, green and yellow zucchini, tomatoes -, red pepper and tomato cream, mozza fior di latte gratin on top"
+    "title": "LA CARBOMAMMA",
+    "description": "Home-made rigatoni, crispy guanciale, egg yolk and a lot of freshly grated pepper",
+    "default_price": "14,5"
   },
   {
-    "title": "Spalla di agnello",
-    "type": "",
-    "price": 17,
-    "description": "Épaule d'agneau ultra tendre, cuite tout doucement, arrosée de son jus de viande, servie avec une fraîche vignarola aux petits pois, artichauts et fèves",
-    "description_eng": "Tender lamb shoulder, cooked slowly, drizzled with its meat juice, served with a fresh vignarola with peas, artichokes and broad beans"
+    "title": "Ravioli ai tre fromaggi",
+    "description": "Ravioli filled with stracchino, ricotta al limone and parmigiano in a delicious butter and sage sauce.",
+    "default_price": "15,5"
   },
   {
-    "title": "Limonemisù",
-    "type": "",
-    "price": "7,5",
-    "description": "Tiramisù pimpé au citron, avalanche de crème mascarpone, biscuits savoiardi imbibés au limoncello",
-    "description_eng": "Tiramisù with lemon, mascarpone avalanche, savoiardi biscuits soaked in limoncello"
+    "title": "Big Balls della Big Squadra",
+    "description": "Pappardelle with meatballs made from Simmentaler beef, free range pork and veal. In a tomato sauce and topped with freshly grated Parmigiano Reggiano",
+    "default_price": "16,5"
   },
   {
-    "title": "Profiterole napolitaine",
-    "type": "",
-    "price": "8,5",
-    "description": "Énorme profiterole, glace fior di latte, chocolat noir tout chaud, noix de pécan caramélisées",
-    "description_eng": "Huge profiterole, fior di latte ice cream, hot dark chocolate, caramelized pecans"
+    "title": "PASTA DI PESCE AL CARTOCCIO",
+    "description": "Square spaghetti with fish stock, mussels, cherry tomatoes, topped with fresh parsley",
+    "default_price": "16,5"
   },
   {
-    "title": "Say Cheesecake",
-    "type": "",
-    "price": "8,5",
-    "description": "Extra-dose de mascarpone et fromage frais, décadent coulis de fruits rouges",
-    "description_eng": "Extra dose of mascarpone and cream cheese, decadent red fruit coulis"
+    "title": "Spaghetti di pesce al Cartoccio",
+    "description": "Spaghetti alla chitarra with seafood: fresh vongole, sea bream, calamaretti in a confit of cherry and datterini tomatoes, topped with fresh parsley - served en papillote.",
+    "default_price": "18,5"
   },
   {
-    "title": "Tiramisù al pistacchio",
-    "type": "",
-    "price": "7,5",
-    "description": "Non non vous ne rêvez pas, c'est bien la version full-pistacchio de notre iconique tigramisù",
-    "description_eng": "No you're not dreaming, it's the full-pistacchio version of our iconic tigramisù"
+    "title": "Die berühmte Trüffelpasta",
+    "description": "OUR SUPERSTAR: home-made mafaldine pasta, truffle mascarpone sauce, topped with even more fresh, black molise truffle",
+    "default_price": 19
   },
   {
-    "title": "Gelati démentes maison",
-    "type": "",
-    "price": 7,
-    "description": "Gelato & chantilly (un seul parfum)",
-    "description_eng": "Gelato & whipped cream (one flavor)"
+    "title": "La Gran Carbonara",
+    "description": "Homemade Rigatoni chitarra with egg yolk, pecorino cheese and crispy guanciale served straight from the pecorino wheel - grande!",
+    "default_price": "16 par personne"
   },
   {
-    "title": "Salame Felino",
-    "type": "",
-    "price": 7,
-    "description": "Le mythique saucisson Felino IGP de La Fattoria di Parma",
-    "description_eng": "The famous Felino IGP salami from La Fattoria di Parma"
+    "title": "GRANDISSIMA INSALATA",
+    "description": "BIG BIG salad with corn, beetroot leaves, french beans, pickled red onion, sugar snaps, green peas, crunchy garlic croutons and cherry tomato confit, spiced up with vegan aioli. \nMore sexy add-ons (€3.00 each): smoked char, chicken, Mozzarella di bufala",
+    "default_price": 13
   },
   {
-    "title": "Big-ratta",
-    "type": "V",
-    "price": "11,5",
-    "description": "Burrata de 250gr crémeuse à souhait, basilic frais, filet d'huile aux herbes e basta",
-    "description_eng": "Burrata 250gr so creamy, fresh basil, drizzle of herbal oil e basta"
+    "title": "IL CARPACCIONE",
+    "description": "Beef carpaccio topped with rucola, homemade balsamic vinegar reduction, cherry tomato confit and parmigiano flakes. So classy.",
+    "default_price": 15
   },
   {
-    "title": "Culatello con grissini",
-    "type": "",
-    "price": 10,
-    "description": "Le jambon le plus hype de la Botte, servi avec des croquants grissini",
-    "description_eng": "The hottest ham of the Bel Paese"
+    "title": "PARMIGIORGIA",
+    "description": "Layered aubergine dressed with mozzarella, san marzano, grated parmigiano and basil",
+    "default_price": 13
   },
   {
-    "title": "Frittatina di bucatini alla scapece",
-    "type": "V",
-    "price": 8,
-    "description": "Beignets de bucatini frits ultra croustillants, courgettes alla scapece, crème de courgettes, béchamel, provola fumée et fromage fontina, le tout recouvert d'une fondue de pecorino et de courgettes frites",
-    "description_eng": "Fried bucatini fritters very crispy, zucchini alla scapece, zucchini cream, béchamel sauce, smoked provola and fontina cheese, all covered with a melted pecorino and fried zucchini"
+    "title": "TAGLIATA DI MANZO",
+    "description": "Beautiful tagliata: flank steak with salsa verde. On the side: baked rosemary and garlic potatoes",
+    "default_price": "28,5"
   },
   {
-    "title": "Polpette alla vaccinara",
-    "type": "",
-    "price": 7,
-    "description": "Big boulette de coda alla vaccinara et sauce demi-glace, le tout recouvert d'une délicieuse sauce aïoli aux oignons rouges et cacao en poudre",
-    "description_eng": ""
+    "title": "PESCE ALLA GRIGLIA",
+    "description": "Dorade in guazze, \n sea bream straight from the grill, cherry tomatoes, black taggiasche olive, confit garlic, topped with parsley and chives",
+    "default_price": 26
   },
   {
-    "title": "Cevishake shake shake",
-    "type": "",
-    "price": 11,
-    "description": "Ceviche de daurade bien frais, kiwi, citron caviar, ciboulette, salsa au lait de coco et colatura di alici di Cetara, mayonnaise au wasabi et citron, croquant tacos de maïs on top",
-    "description_eng": "Very fresh sea bream ceviche, kiwi, lemon caviar, chives, coconut milk salsa and colatura di alici di Cetara, wasabi and lemon mayonnaise, crispy corn tacos on top"
+    "title": "FILETTO DI PESCE",
+    "description": "Sea bream filet served in \"ACQUA PAZZA\" - fish stock, early poatoes, cherry tomatoes, black taggiasche olives, confit garlic, topped with parsley and chives",
+    "default_price": 17
   },
   {
-    "title": "TripesAdvisor",
-    "type": "",
-    "price": 10,
-    "description": "Tripes de seiche alla romana, seiche, sauce de tomates San Marzano et Datterino, menthe, crispy panure aux herbes on top",
-    "description_eng": ""
+    "title": "HAKUNA PATATA",
+    "description": "Early potato, garlic, and rosemary",
+    "default_price": 5
   },
   {
-    "title": "Carciofi alla griglia",
-    "type": "V",
-    "price": 9,
-    "description": "Affriolants artichauts grillés au four Josper, mayonnaise aigre-douce aux artichauts, le tout recouvert d'une délicieuse salsa verde",
-    "description_eng": "Attractive artichokes grilled in Josper oven, sweet and sour artichoke mayonnaise, all covered with a delicious salsa verde"
+    "title": "INSALATA PICCOLA",
+    "description": "Rucola, cherry tomatoes topped with flakes of parmigiano reggiano",
+    "default_price": 5
   },
   {
-    "title": "OS 117",
-    "type": "",
-    "price": 12,
-    "description": "Tartare de veau bien fondant, salsa tonnata, salsa verde au persil et sauce aïoli, éclats de cacahuètes on top, le tout servi sur un os à moelle",
-    "description_eng": "Very melting veal tartar, salsa tonnata, salsa verde with parsley, aioli sauce, peanut flakes on top, all served on a marrow bone"
+    "title": "MAMMARGHERITA",
+    "description": "San marzano tomatoes, mozzarella di bufala, fresh basil and parmigiano reggiano. Simply the Best",
+    "default_price": "11,5"
   },
   {
-    "title": "Tonnarelli alla puttanesca",
-    "type": "V",
-    "price": "13,5",
-    "description": "Interminables tonnarelli à la salsa puttanesca - sauce de tomates Datterino, olives taggiasche, câpres et ail -, stracciatella fumée, olives taggiasche séchées, basilic",
-    "description_eng": "Insane tonnarelli with puttanesca salsa - Datterino tomato sauce, taggiasche olives, capers and garlic -, smoked stracciatella, dried taggiasche olives, basil"
+    "title": "MAMMA MIA MARGHERITA",
+    "description": "San marzano tomatoes, mozzarella di bufala, fresh basil and parmigiano reggiano.",
+    "default_price": 11
   },
   {
-    "title": "Risotto alla parmigiana",
-    "type": "V",
-    "price": "14,5",
-    "description": "Risotto crémeux à souhait, parmigiano, beurre acidulé, artichauts frits et zestes de citron vert. Vol direct vers l'Emilia Romagna !",
-    "description_eng": "Creamy risotto, parmigiano, tart butter, fried artichokes and lime zest. Direct flight to Emilia Romagna!"
+    "title": "NONNA NORMA",
+    "description": "San marzano sauce, fior di latte mozzarella, deep fried aubergines and salted dry ricotta",
+    "default_price": 13
   },
   {
-    "title": "Bunny Tyler",
-    "type": "",
-    "price": "17,5",
-    "description": "Plin typiques du Piémont farcis au lapin, crème de fenouil, olives taggiasche et pignons de pin, le tout arrosé d'une sauce demi-glace bien lisse",
-    "description_eng": "Plin typical of Piedmont stuffed with rabbit, fennel cream, taggiasche olives and pine nuts, all drizzled with a smooth demi-glace sauce"
+    "title": "ALLA NORMA",
+    "description": "San marzano tomatoes, fior di latte mozzarella, deep fried aubergines and salted dry ricotta",
+    "default_price": 12
   },
   {
-    "title": "Da Vinci Cod",
-    "type": "",
-    "price": "15,5",
-    "description": "Culurgiones bien dodus et tressés à la main, farcis au cabillaud et pommes de terre, beurre citronné, punchy condiment citron, fenouil et menthe, poutargue râpée on top",
-    "description_eng": "Hand-braided culurgiones very plump, stuffed with cod and potatoes, lemon butter, punchy lemon condiment, fennel and mint, grated bottarga on top"
+    "title": "BELLA REGINA",
+    "description": "Pizza bianca with creme fraiche, fior di latte mozzarella, cooked ham, raw mushrooms and chives",
+    "default_price": "15,5"
   },
   {
-    "title": "Burratelli alla scapece",
-    "type": "V",
-    "price": "16,5",
-    "description": "Crazy burratelli farcis aux courgettes alla scapece et à la stracciatella fumée, beurre acidulé, crème de courgettes, menthe, éclats d'amandes et courgettes frites on top",
-    "description_eng": "Crazy burratelli stuffed with zucchini alla scapece and smocked stracciatella, tart butter, zucchini cream, mint, almond flakes and fried zucchini on top"
+    "title": "REGINA GEORGE",
+    "description": "Pizza bianca made with creme fraiche, fior di latte mozzarella, cooked ham, raw mushrooms and chives",
+    "default_price": "13,5"
   },
   {
-    "title": "La fameuse pâte à la truffe",
-    "type": "V",
-    "price": 19,
-    "description": "Mafalde fresche, truffe fraîche de saison, crème de truffe noire, mascarpone et petits champignons",
-    "description_eng": "Mafalde fresche, fresh seasonal truffle, black truffle cream, mascarpone and small mushrooms"
+    "title": "THAT'S HOT",
+    "description": "San marzano sauce mixed with nduja salami, fior di latte, red onion confit, watercress pesto and salame picante",
+    "default_price": "14,5"
   },
   {
-    "title": "Margherita Ora",
-    "type": "V",
-    "price": "13,5",
-    "description": "Mozza fior di latte, sauce de tomates San Marzano, parmigiano, bocconcino di bufala, basilic",
-    "description_eng": "Mozza fior di latte, San Marzano tomato sauce, parmigiano, bocconcino di bufala, basil"
+    "title": "EMRATA BURRATA",
+    "description": "San marzano sauce, creamy stracciatella, taggiasche olives and homemade basil pesto",
+    "default_price": "15,5"
   },
   {
-    "title": "Provola Locatelli",
-    "type": "V",
-    "price": "14,5",
-    "description": "Sauce de tomates San Marzano, provola fumée, poivre noir, pecorino râpé, basilic",
-    "description_eng": "San Marzano tomato sauce, smoked provola, black pepper, grated pecorino, basil"
+    "title": "YUNG TRUFFLE",
+    "description": "Truffle sauce mixed with raw ricotta, baked oyster mushrooms, fior di latte mozzarella, fresh black truffle  and chives",
+    "default_price": 19
   },
   {
-    "title": "Au rang de reine",
-    "type": "",
-    "price": 17,
-    "description": "Sauce de tomates San Marzano, mozza fior di latte, jambon cuit aux herbes, olives taggiasche, champignons de Paris, ciboulette",
-    "description_eng": "San Marzano tomato sauce, mozza fior di latte, cooked ham with herbs, taggiasche olives, button mushrooms, chives"
+    "title": "TUNA-IGHT IS THE NIGHT",
+    "description": "San marzano sauce, mozzarella fior di latte, tuna, caramelised shallots, taggiasche black olive, chives and lemon zest",
+    "default_price": "15,5"
   },
   {
-    "title": "Cheese a maniac",
-    "type": "V",
-    "price": "15,5",
-    "description": "Mozza fior di latte, ricotta de chèvre fumée au four Josper, provola fumée, fromage raspadura, poivre noir, miel aux grains de moutarde",
-    "description_eng": "Mozza fior di latte, goat ricotta smoked in Josper oven, smoked provola, raspadura cheese, black pepper, honey with mustard seeds"
+    "title": "IL TIGRAMISU",
+    "description": "The unbeatable, all time classic della casa",
+    "default_price": 7
   },
   {
-    "title": "Para bailar la bomba",
-    "type": "V",
-    "price": "16,5",
-    "description": "Hot salsa bomba pugliese veggie, crème de poivrons rouges, stracciatella et provola fumées, caviar d'aubergines, petits morceaux d'aubergines frites, piment crusco, pignons de pin",
-    "description_eng": "Hot veggie bomba pugliese salsa, red pepper cream, smoked stracciatella and provola, eggplant caviar, fried eggplant chunks, crusco pepper, pine nuts"
+    "title": "CHOCO CLAP CLAP",
+    "description": "A succulent cake made dark and milk chocolate, salted butter caramel, coffee and hazelnut, with a crunchy praline and on top a delicously whipped mascarpone cream",
+    "default_price": "8,5"
   },
   {
-    "title": "Saltimbocca alla romana",
-    "type": "",
-    "price": 18,
-    "description": "Direction Roma avec ces fines escalopes de veau garnies de prosciutto di parma et sauge, déglacées au vin blanc, le tout acoquiné de petites pommes de terre sautées au beurre",
-    "description_eng": ""
+    "title": "DOLCI ALL IN",
+    "description": "You can have it all: Our mini Tiramisu, Panacotta and Cantucci",
+    "default_price": 6
   },
   {
-    "title": "Melanzendaya",
-    "type": "V",
-    "price": 13,
-    "description": "Fondante aubergine grillée au four Josper, recouverte d'une onctueuse crème de stracchino, salsa chimichurri et concassé de tomates Roma, crispy chapelure aux herbes, pignons de pin on top",
-    "description_eng": "Melting eggplant grilled in Josper oven, covered with a smooth stracchino cream, salsa chimichurri and crushed Roma tomatoes, crispy breadcrumbs with herbs, pine nuts on top"
+    "title": "HEILIGE PANNA COTTA",
+    "description": "We present you the most audacious of our dolci: an ultra creamy vanilla panna cotta with fresh fruits and seasonal truffle",
+    "default_price": 8
   },
   {
-    "title": "Beef Gees",
-    "type": "",
-    "price": 19,
-    "description": "Poitrine de bœuf cuite tout doucement puis grillée au Josper, sauce demi-glace et sauce barbecue, petites pommes de terres frites au beurre, herbes fraîches",
-    "description_eng": "Beef brisket cooked slowly then grilled in Josper, demi-glace sauce, barbecue sauce, little potatoes fried in butter, fresh herbs"
+    "title": "TORTA AL LIMONE",
+    "description": "Zingy tart and humongous 18cm meringue layer. Because size DOES matter!",
+    "default_price": "7,5"
   },
   {
-    "title": "Poulpe and the Gang",
-    "type": "",
-    "price": 22,
-    "description": "Cool poulpe grillé au four Josper, écrasé de pommes de terre et salsa chimichurri, asperges vertes grillées, petits oignons rouges en aigre-doux, délicieuse salsa verde",
-    "description_eng": "Cool octopus grilled in Josper oven, mashed potatoes and salsa chimichurri, grilled green asparagus, sweet and sour red onions, delicious salsa verde"
+    "title": "FRAGOLE E POMODORI",
+    "description": "Fresh strawberry, green tomatoes, basil jelly and vegan mascarpone cream",
+    "default_price": 8
   },
   {
-    "title": "Arrosticini di agnello",
-    "type": "",
-    "price": 22,
-    "description": "Brochettes d'agneau typiques des Abbruzes, grillées au four Josper, acoquinées de petites pommes de terre sautées au beurre, fraîche salade de puntarelle assaisonnée d'une vinaigrette aux anchois et ail",
-    "description_eng": "Lamb skewers typical of the Abbruzes, grilled in Josper oven, served with little potatoes sautéed in butter, fresh puntarelle salad, anchovy and garlic vinaigrette"
+    "title": "GELATO DEL GIORNO",
+    "description": "Homemade Italian ice cream of the day. Never wrong!",
+    "default_price": "6,5"
   },
   {
-    "title": "Monte rosso",
-    "type": "",
-    "price": "8,5",
-    "description": "Coque meringuée garnie d'un crémeux à la vanille et de chantilly, coulis de fruits rouges et fruits rouges frais on top",
-    "description_eng": "Meringue shell filled with vanilla cream and whipped cream, red fruit coulis and fresh red fruit on top"
+    "title": "YOGURT DELLA BAVIERA",
+    "description": "Creamy Bavarian yogurt",
+    "default_price": 7
   },
   {
-    "title": "Certified choco-lover",
-    "type": "",
-    "price": "8,5",
-    "description": "Crémeux au chocolat noir, praliné aux noisettes et citron, fleur de sel, poivre de Java, giga langues de chat choco-vanille",
-    "description_eng": "Dark chocolate cremeux, hazelnut and lemon praline, fleur de sel, Java pepper, choco-vanilla langues de chat biscuits"
+    "title": "YOGURT DALLA BAVIERA",
+    "description": "",
+    "default_price": 8
   },
   {
-    "title": "L'île au lendemain",
-    "type": "",
-    "price": "7,5",
-    "description": "Une part géante d’île flottante recouverte de crème anglaise à la vanille et pop-corn caramélisés",
-    "description_eng": "A giant slice of île flottante covered with vanilla custard and caramelized popcorn"
+    "title": "GRANOLA DELLA MAMMA",
+    "description": "Creamy Bavarian yogurt della baviera with granola and local honey",
+    "default_price": 7
   },
   {
-    "title": "Say Cheesecake",
-    "type": "",
-    "price": "7,5",
-    "description": "Extra-dose de mascarpone et fromage frais, pâte à tartiner Big Mamma, éclats de noisettes",
-    "description_eng": "Extra dose of mascarpone and cream cheese, Big Mamma chocolate spread, hazelnut flakes"
+    "title": "GRANOLA DELLA MAMMA",
+    "description": "Crunchy, homemade Granola, served with bavarian yogurt and topped with seasonal fruits and gooey honey",
+    "default_price": 8
   },
   {
-    "title": "La burrat' qui pèse",
-    "type": "V",
-    "price": "13,5",
-    "description": "Énorme burrata de 250gr, fraîche salade panzanella aux tomates San Marzano, petits croûtons de pain, oignons rouges, céleri et basilic",
-    "description_eng": "Huge burrata of 250gr, fresh panzanella salad with San Marzano tomatoes, little bread croutons, red onions, celery and basil"
+    "title": "FRUTTA FRESCA DI STAGIONE",
+    "description": "SEASONAL FRUIT SALAD",
+    "default_price": 6
   },
   {
-    "title": "Coppia di ricotta",
-    "type": "V",
-    "price": 7,
-    "description": "Deux big morceaux de ricotta de chèvre crémeuse à souhait, le tout recouvert de miel, moutarde, éclats de noix de pécan et herbes fraîches",
-    "description_eng": "Two big pieces of goat ricotta perfectly creamy, covered with honey, mustard, pecan flakes and fresh herbs"
+    "title": "GIORGIA’S PANCAKES",
+    "description": "Fluffy pancakes topped with - whatever you want. Choose your fighter: topfen, maple sirup or homemade choco sauce",
+    "default_price": 9
   },
   {
-    "title": "Bruschetta cacio e pepe",
-    "type": "V",
-    "price": 9,
-    "description": "Grosse tranche de pain tartinée de beurre cacio e pepe, artichauts alla romana, vignarola veggie, pousses de petits pois, le tout arrosé d'une eau de tomates vertes bien fraîche",
-    "description_eng": "Big slice of bread spread with cacio e pepe butter, artichokes alla romana, veggie vignarola, pea shoots, all drizzled with a very fresh green tomato water"
+    "title": "I'M SO EGGCITED (VEG)",
+    "description": "Creamy, scrambled eggs served on a delicious slice of bread",
+    "default_price": "5,5"
   },
   {
-    "title": "Peperoni arrostiti",
-    "type": "V",
-    "price": 8,
-    "description": "Coquins poivrons rouges rôtis au four, salsa tonnata veggie aux pois chiches, marjolaine et aneth on top",
-    "description_eng": "Naughty red peppers roasted in the oven, veggie tonnata salsa with chickpeas, marjoram and dill on top"
+    "title": "SUNNY SIDE UP",
+    "description": "2 sunny side up fried eggs served on a delicious slice of bread",
+    "default_price": "5,5"
   },
   {
-    "title": "Asperge Lama",
-    "type": "V",
-    "price": 11,
-    "description": "Fringantes asperges vertes et blanches recouvertes d'une délicieuse salsa verde, fromage de chèvre, éclats de noisettes et crispy croûtons de pain brioché",
-    "description_eng": "Dashing green and white asparagus covered with a delicious salsa verde, goat cheese, hazelnut flakes and crispy brioche croutons"
+    "title": "SAN BENEDETTO",
+    "description": "2 Eggs Benedict - served on a brioche and topped with creamy, homemade hollandaise",
+    "default_price": "7,5"
   },
   {
-    "title": "La Tarte Tatintintinnn",
-    "type": "V",
-    "price": 12,
-    "description": "Taquine tarte tatin aux tomates cœur de pigeon, avalanche de crème de burrata et origan on top",
-    "description_eng": "Teasing tart tatin with pigeon heart tomatoes, avalanche of burrata cream and oregano on top"
+    "title": "EXTRAS",
+    "description": "baby spinach, mushroom, cheese, bacon and cooked ham, each plus 2€",
+    "default_price": 2
   },
   {
-    "title": "Busiate alla salsa di pomodoro",
-    "type": "V",
-    "price": "13,5",
-    "description": "Démentes busiate à la sauce de tomates San Marzano et Datterino, stracciatella fumée, poivrons crusco et filet d'huile verte au persil",
-    "description_eng": "Insane busiate with San Marzano and Datterino tomato sauce, smoked stracciatella, crusco peppers and drizzle of parsley green oil"
+    "title": "PIATTO DI PARMA E BRESAOLA",
+    "description": "Prosciutto di Parma 24 Mesi DOP und Bresaola",
+    "default_price": 9
   },
   {
-    "title": "Piramidi du Louvre",
-    "type": "V",
-    "price": "16,5",
-    "description": "Piramidi verts et jaunes, farcis aux aubergines alla scapece, caviar d'aubergines, ricotta de chèvre et noix de pécan, soyeuse crème de burrata, eau de tomates vertes, salicornes et filet d'huile verte aux herbes",
-    "description_eng": "Green and yellow piramidi stuffed with eggplant alla scapece, eggplant caviar, goat ricotta and pecan, silky burrata cream, green tomato water, salicornia and drizzle of green herb oil"
+    "title": "PIATTO DI PECORINO E MOZZARELLA FRESCA",
+    "description": "Cheese platter with pecorino and fresh mozzarella di bufala",
+    "default_price": 7
   },
   {
-    "title": "Cacio e pepe 2.0",
-    "type": "V",
-    "price": "17,5",
-    "description": "Les incontournables spaghetti à la salsa cacio e pepe avec un twist - pecorino, poivre et artichauts -, servis directement depuis la meule de pecorino",
-    "description_eng": "The unmissable spaghetti with cacio e pepe salsa with a twist - pecorino, pepper and artichokes -, served directly from the pecorino wheel"
+    "title": "PIATTO SALUMI E FORMAGGI",
+    "description": "Mixed plate with salami and cheese",
+    "default_price": 14
   },
   {
-    "title": "Gnocchi Blinders",
-    "type": "V",
-    "price": "13,5",
-    "description": "Gnocchi bien dodus à la crème de courgettes et menthe, ricotta de chèvre fumée, courgettes alla scapece, courgettes sautées, menthe fraîche",
-    "description_eng": "Plump gnocchi with zucchini and mint cream, smoked goat ricotta, zucchini alla scapece, sautéed zucchini, fresh mint"
+    "title": "CAPO CAPRESE",
+    "description": "Caprese Salad with juicy tomatoes, basil pesto and mozzarella di bufala",
+    "default_price": 7
   },
   {
-    "title": "Mammargherita",
-    "type": "V",
-    "price": "12,5",
-    "description": "Mozza fior di latte, sauce de tomates San Marzano, parmigiano, basilic frais",
-    "description_eng": "Mozza fior di latte, San Marzano tomato sauce, parmigiano, fresh basil"
+    "title": "YOU BUTTER BELIEVE IT",
+    "description": "bread basket with jam, honey and butter",
+    "default_price": 6
   },
   {
-    "title": "Peas of mind",
-    "type": "V",
-    "price": "16,5",
-    "description": "Crème de petits pois, mozza fior di latte, provolone, artichauts sautés, stracciatella fumée, olives taggiasche, menthe",
-    "description_eng": "Peas cream, mozza fior di latte, provolone, sautéed artichokes, smoked stracciatella, taggiasche olives, mint"
-  },
-  {
-    "title": "Calzone en personne",
-    "type": "V",
-    "price": "15,5",
-    "description": "Joufflue calzone fourrée à la sauce de tomates San Marzano, aubergines à l'ail et au persil rôties au four, ricotta de chèvre, provola fumée et pignons de pin, recouverte de basilic et sauce de tomates San Marzano",
-    "description_eng": "Cheeky calzone filled with San Marzano tomato sauce, eggplant with garlic and parsley roasted in the oven, goat ricotta, smoked provola and pine nuts, covered with basil and San Marzano tomato sauce"
-  },
-  {
-    "title": "Hotline bling",
-    "type": "V",
-    "price": "14,5",
-    "description": "Bomba pugliese veggie, sauce de tomates San Marzano, big morceaux de mozza di bufala, poivrons crusco, oignons jaunes crispy, confiture de piments rouges, menthe et estragon",
-    "description_eng": "Veggie bomba pugliese, San Marzano tomato sauce, big pieces of mozza di bufala, crusco peppers, crispy yellow onions, red chilli pepper jam, mint and tarragon"
-  },
-  {
-    "title": "Chou must go on",
-    "type": "V",
-    "price": 14,
-    "description": "Affriolant chou romanesco pané, acoquiné d'une salade de livèche, menthe, coriandre, graines de tournesol et confiture de piments rouges, le tout servi sur une délicieuse sauce tartare",
-    "description_eng": "Lovely breaded romanesco cabbage, served with a little salad of lovage, mint, coriander, sunflower seeds and red chilli pepper jam, all served on a delicious tartar sauce"
-  },
-  {
-    "title": "Halloumi le feu",
-    "type": "V",
-    "price": 19,
-    "description": "Croustillant halloumi rôti au four, ketchup de champignons, persillade gremolata aux herbes et au paprika, petites pommes de terre frites, douce crème épaisse, ciboulette on top",
-    "description_eng": "Crispy halloumi roasted in the oven, mushroom ketchup, gremolata parsley with herbs and paprika, little fried potatoes, sweet double cream, chives on top"
-  },
-  {
-    "title": "Like a aubergine",
-    "type": "V",
-    "price": 15,
-    "description": "Fondante aubergine rôtie recouverte de salsa romesco, feta, groseilles, ciboulette, sauce demi-glace veggie, pignons de pin et filet d'huile verte aux herbes, le tout servi sur une crème de feta",
-    "description_eng": "Melting roasted eggplant covered with romesco salsa, feta, currants, chives, veggie demi-glace sauce, pine nuts and a drizzle of green herb oil, all served on a feta cream"
-  },
-  {
-    "title": "Riso al latte",
-    "type": "",
-    "price": "7,5",
-    "description": "Le riz au lait bien régressif à la vanille, servi directement depuis la zuppiera della nonna",
-    "description_eng": "The regressive vanilla rice pudding served directly from the zuppiera della nonna"
-  },
-  {
-    "title": "Sundae pop pop pop",
-    "type": "V",
-    "price": "9,5",
-    "description": "Gelato fior di latte topée de sauce caramel, chocolat blanc caramélisé, éclats de noix de pécan et pop-corn caramélisés",
-    "description_eng": "Gelato fior di latte topped with caramel sauce, caramelized white chocolate, pecan flakes and caramelized popcorn"
-  },
-  {
-    "title": "Burrata con pappa al pomodoro",
-    "type": "V",
-    "price": "13,5",
-    "description": "Énorme burrata de 250gr en direct des Pouilles, compotée de pain perdu aux tomates San Marzano, ail, filet d'huile d’olive",
-    "description_eng": "Huge 250gr burrata from Puglia, compote of French toast with San Marzano tomatoes, garlic, olive oil drizzle"
-  },
-  {
-    "title": "Culatello con cotenna",
-    "type": "",
-    "price": 9,
-    "description": "Le jambon le plus hype de la Botte",
-    "description_eng": "The hippest italian ham"
-  },
-  {
-    "title": "Coppa d'Emilia Romagna",
-    "type": "",
-    "price": 8,
-    "description": "Fines tranches de coppa de notre producteur Paolo Pongolini, from Emilia Romagna with love",
-    "description_eng": "Thin slices of coppa from our producer Paolo Pongolini, from Emilia Romagna with love"
-  },
-  {
-    "title": "Mortadella",
-    "type": "",
-    "price": "6,5",
-    "description": "Mortadella de notre producteur Ibis Salumi et éclats de pistache. No need for more.",
-    "description_eng": "Mortadella from our producer Ibis Salumi and pistachio flakes. No need for more."
-  },
-  {
-    "title": "Frittura di verdure",
-    "type": "V",
-    "price": 12,
-    "description": "Team de fritti ultra croustillants : fleur de courgette farcie de ricotta à l'oseille, salicorne frite, frittelle de courgettes et zeppole de laitue de mer",
-    "description_eng": "Very crispy fritti team: zucchini flower stuffed with sorrel ricotta, fried salicornia, zucchini frittelle and sea lettuce zeppole"
-  },
-  {
-    "title": "Crocchè di Napoli",
-    "type": "",
-    "price": 8,
-    "description": "Crispy crocchè de pommes de terre, douce crème de ricotta et oseille, lardo stagionato de la Salumeria de Stefani",
-    "description_eng": "Crispy crocchè of potatoes, sweet cream of ricotta and sorrel, lardo stagionato of the Salumeria of Stefani"
-  },
-  {
-    "title": "Œufida Turner",
-    "type": "V",
-    "price": 7,
-    "description": "Œuf parfait, mousse de pommes de terre ultra légère, artichauts frits. Un bonheur. / supplément truffe fraîche + 5€",
-    "description_eng": "Perfect egg, ultra light potato mousse, fried artichokes. Happiness. / extra fresh truffle + 5€"
-  },
-  {
-    "title": "Bun to be alive",
-    "type": "",
-    "price": 11,
-    "description": "Joufflu pain brioché recouvert d'un tendre tartare de bœuf coupé au couteau, assaisonnement bien punchy, parmigiano râpé on top",
-    "description_eng": "Chubby brioche bread covered with a tender beef tartar cut with knife, punchy seasoning, grated parmigiano on top"
-  },
-  {
-    "title": "Carpaccio di branzino",
-    "type": "",
-    "price": 10,
-    "description": "Carpaccio de bar bien frais, jus de céleri et pousses d'épinards, oignons, fenouil sauvage, câpres et poudre d'olives taggiasche",
-    "description_eng": "Very fresh sea bass carpaccio, celery juice and spinach shoots, onions, wild fennel, capers and taggiasche olive powder"
-  },
-  {
-    "title": "Paccheri James",
-    "type": "V",
-    "price": "14,5",
-    "description": "Crazy paccheri à la sauce de tomates San Marzano, big morceaux de mozza di bufala bien juteuse, basilic frais",
-    "description_eng": "Crazy paccheri with San Marzano tomato sauce, big pieces of juicy mozza di bufala, fresh basil"
-  },
-  {
-    "title": "Fusilli di Trapani",
-    "type": "V",
-    "price": "13,5",
-    "description": "Fusilli au bon pesto alla trapanese - tomates Datterino, amandes, pecorino et basilic -, tomates confites, stracciatella fumée, éclats d'amandes et basilic on top",
-    "description_eng": "Fusilli with good pesto alla trapanese - Datterino tomatoes, almonds, pecorino and basil -, confit tomatoes, smoked stracciatella, almond flakes and basil on top"
-  },
-  {
-    "title": "Bunny Montana",
-    "type": "",
-    "price": "16,5",
-    "description": "Mignons plin typiques du Piémont, farcis au ragù de lapin et arrosés d'une soyeuse sauce demi-glace et d'un beurre aux herbes, légère mousse de camembert di bufala et oseille fraîche on top",
-    "description_eng": "Cute plin typical of Piedmont, stuffed with rabbit ragù and drizzled with a silky demi-glace sauce and herb butter, lightly camembert di bufala mousse and fresh sorrel on top"
-  },
-  {
-    "title": "Calamarata alla genovese",
-    "type": "",
-    "price": "15,5",
-    "description": "Dodues pâtes calamarata au ragù de bœuf cuit pendant des heures avec beaucoup, beaucoup d'oignons, pecorino râpé on top",
-    "description_eng": "Plump calamarata pasta with beef ragù cooked for hours with many many onions, grated pecorino on top"
-  },
-  {
-    "title": "Spaghetti al ragù di moscardini",
-    "type": "",
-    "price": "17,5",
-    "description": "Interminables spaghetti au ragù de baby poulpes, sauce de tomates San Marzano, crispy panure aux herbes on top",
-    "description_eng": "Long spaghetti with baby octopus ragù, San Marzano tomato sauce, crispy herb breading on top"
-  },
-  {
-    "title": "Et 1 et 2 et 4 fromages",
-    "type": "V",
-    "price": "13,5",
-    "description": "Crème de ricotta de chèvre, provola fumée, taleggio, poivre de Sichuan, crispy parmigiano, basilic",
-    "description_eng": "Goat ricotta cream, smoked provola, taleggio, Sichuan pepper, crispy parmigiano, basil"
-  },
-  {
-    "title": "Veggie-land",
-    "type": "V",
-    "price": "15,5",
-    "description": "Pesto de roquette, courgettes alla scapece, poireaux frits, stracciatella fumée, menthe",
-    "description_eng": "Arugula pesto, zucchini alla scapece, fried leeks, smoked stracciatella, mint"
-  },
-  {
-    "title": "Sp-hot-ify",
-    "type": "",
-    "price": "14,5",
-    "description": "Crème de poivrons rouges à la nduja, provola fumée, spianata piccante, poivrons crusco, big morceaux de mozza di bufala bien juteuse",
-    "description_eng": "Cream of red pepper with nduja, smoked provola, spianata piccante, crusco peppers, big pieces of juicy mozza di bufala"
-  },
-  {
-    "title": "Melanzana la guerrière",
-    "type": "",
-    "price": 16,
-    "description": "Sauce de tomates San Marzano, prosciutto crudo Peduccio di frate, aubergines grillées, mozza fior di latte, ricotta salata, basilic",
-    "description_eng": "San Marzano tomato sauce, prosciutto crudo Peduccio di frateo, grilled eggplant, mozza fior di latte, ricotta salata, basil"
-  },
-  {
-    "title": "Vitamin sea",
-    "type": "",
-    "price": 18,
-    "description": "Cool brochette de poulpe et seiche, puntarelle grillée, sauce chimichurri, le tout recouvert d'une délicieuse salsa brava et acoquiné d'une petite salade de puntarelle, anchois, olives taggiasche et citronnette",
-    "description_eng": "Cool skewer of octopus and cuttlefish, grilled puntarella, chimichurri sauce, covered with a delicious salsa brava and served with a little salad of puntarella, anchovies, taggiasche olives and lemon grass"
-  },
-  {
-    "title": "Costolette di agnello",
-    "type": "",
-    "price": 22,
-    "description": "Démentes côtelettes d'agneau panées d'une crispy chapelure aux pistaches, servies avec des asperges vertes grillées, assaisonnées d'une citronnette à la puntarelle et avec une petite salade de puntarelle, anchois et olives taggiasche",
-    "description_eng": "Insane lamb chops breaded with crispy pistachio breadcrumbs, served with grilled green asparagus, seasoned with puntarella lemon grass and a little salad of puntarella, anchovies and taggiasche olives"
-  },
-  {
-    "title": "Bongo fiorentino",
-    "type": "",
-    "price": "7,5",
-    "description": "Petits choux tout doux, typiques de Toscane, fourrés à la chantilly italienne et recouverts d'une indécente sauce au chocolat",
-    "description_eng": "Little soft puffs, typical of Tuscany, filled with Italian whipped cream and covered with an indecent chocolate sauce"
-  },
-  {
-    "title": "Crostata alla frutta",
-    "type": "",
-    "price": "8,5",
-    "description": "Craquante tarte à la rhubarbe, compotée de fraises, crème d'amandes, chantilly infusée au basilic",
-    "description_eng": "Crunchy rhubarb pie, strawberry compote, almond cream, basil-infused whipped cream"
-  },
-  {
-    "title": "Focaccia barese",
-    "type": "V",
-    "price": 7,
-    "description": "Focaccia bien moelleuse à l'intérieur et crispy à l'extérieur, petites tomates Datterino rôties, olives taggiasche et crème de parmigiano",
-    "description_eng": "Focaccia soft inside and crispy outside, little roasted Datterino tomatoes, taggiasche olives and parmigiano cream"
-  },
-  {
-    "title": "Super balls",
-    "type": "V",
-    "price": 8,
-    "description": "Trois dodues boulettes d'aubergines alla scapece, caviar d'aubergines, tomates Datterino confites, persil, basilic et pignons de pin, servies sur une salsa au paprika et piment d'Espelette bien hot",
-    "description_eng": "Three plump balls of eggplant alla scapece, eggplant caviar, confit Datterino tomatoes, parsley, basil and pine nuts, served on a hot paprika and Espelette chilli pepper salsa"
-  },
-  {
-    "title": "Asparagi alla griglia",
-    "type": "V",
-    "price": 10,
-    "description": "Pimpantes asperges vertes grillées recouvertes de crème de faisselle, persillade gremolata aux amandes, aneth et suprêmes d'orange",
-    "description_eng": "Dazzling grilled green asparagus covered with a faisselle cream, gremolata parsley with almonds, dill and orange segments"
-  },
-  {
-    "title": "Cevi-check",
-    "type": "",
-    "price": 11,
-    "description": "Ceviche de daurade bien frais, kiwi, pommes Granny Smith, petites herbes fraîches, le tout arrosé d'une punchy vinaigrette au citron vert et céleri",
-    "description_eng": "Very fresh ceviche of sea bream, kiwi, Granny Smith apples, fresh herbs, punchy lime and celery vinaigrette"
-  },
-  {
-    "title": "Gnocchim Kardashian",
-    "type": "V",
-    "price": "12,5",
-    "description": "Gnocchi bien dodus alla nerano - courgettes alla scapece frites, parmigiano et basilic -, courgettes frites et menthe fraîche on top, le tout servi sur une délicieuse crème de courgettes et menthe",
-    "description_eng": "Plump gnocchi alla nerano - fried zucchini alla scapece, parmigiano and basil -, fried zucchini and fresh mint on top, all served on a delicious zucchini and mint cream"
-  },
-  {
-    "title": "Roberto Cavatelli",
-    "type": "V",
-    "price": "14,5",
-    "description": "Cavatelli alla norma, sauce de tomates San Marzano, aubergines frites, aubergines alla scapece, hot bomba pugliese, stracciatella fumée, basilic et filet d'huile verte aux herbes. Vol direct vers la Sicilia !",
-    "description_eng": "Cavatelli alla norma, San Marzano tomato sauce, fried eggplant, eggplant alla scapece, hot bomba pugliese, smoked stracciatella, basil and drizzle of green herb oil. Direct flight to Sicily!"
-  },
-  {
-    "title": "Plin alla coda vaccinara",
-    "type": "",
-    "price": "16,5",
-    "description": "Mignons plin farcis au ragù de coda alla vaccinara typique de Roma, - ragù de queue de bœuf, sauce de tomates cuit, vin rouge et céleri -, légère mousse au parmigiano et sauce demi-glace, oseille, petits raisins secs et pignons de pin on top",
-    "description_eng": "Cute plin stuffed with coda alla vaccinara ragù, typical of Roma, - beef tail ragù, cooked tomato sauce, red wine and celery -, light parmigiano mousse and demi-glace sauce, sorrel, little dried raisins and pine nuts on top"
-  },
-  {
-    "title": "Tonnarelli alla vignarola",
-    "type": "",
-    "price": "15,5",
-    "description": "Direction Roma avec ces déments tonnarelli alla vignarola - artichauts, petits pois, fèves, oignons nouveaux et guanciale -, big copeaux de pecorino on top",
-    "description_eng": "Direction Roma with these crazy tonnarelli alla vignarola - artichokes, peas, beans, spring onions and guanciale -, big pecorino shavings on top"
-  },
-  {
-    "title": "Cheesy burratelli",
-    "type": "V",
-    "price": "16,5",
-    "description": "Crazy burratelli farcis à la stracciatella fumée et ricotta, sauce de tomates Datterino, basilic et filet d'huile verte aux herbes",
-    "description_eng": "Crazy burratelli stuffed with smoked stracciatella and ricotta, Datterino tomato sauce, basil and drizzle of green herb oil"
-  },
-  {
-    "title": "La moulaga",
-    "type": "",
-    "price": "17,5",
-    "description": "Interminables tonnarelli aux moules, sauce de tomates San Marzano, poivrons crusco, pecorino râpé, fines tranches de lardo stagionato de la Salumeria de Stefani",
-    "description_eng": "Long tonnarelli with mussels, San Marzano tomato sauce, crusco peppers, grated pecorino, thin slices of lardo stagionato from the Salumeria di Stefani"
-  },
-  {
-    "title": "Cheesy Gonzales",
-    "type": "V",
-    "price": "13,5",
-    "description": "Mozza fior di latte, ricotta de chèvre, gorgonzola, crème de fromage Taleggio aux betteraves, poivre noir, basilic",
-    "description_eng": "Mozza fior di latte, goat ricotta, gorgonzola, cream of Taleggio cheese with beets, black pepper, basil"
-  },
-  {
-    "title": "Le cream de l'Orient Express",
-    "type": "",
-    "price": 16,
-    "description": "Crème épaisse, mozza fior di latte, jambon cuit aux herbes, artichauts alla romana, carpaccio de champignons, ciboulette",
-    "description_eng": "Double cream, mozza fior di latte, ham cooked with herbs, artichokes alla romana, mushroom carpaccio, chives"
-  },
-  {
-    "title": "C'est la hot que j'préfère",
-    "type": "",
-    "price": "14,5",
-    "description": "Sauce de tomates San Marzano et nduja, salame piccante, mozza fior di latte, tomates Datterino confites, olives taggiasche, thym",
-    "description_eng": "San Marzano and nduja tomato sauce, salame piccante, mozza fior di latte, confit Datterino tomatoes, taggiasche olives, thyme"
-  },
-  {
-    "title": "La vita in verde",
-    "type": "V",
-    "price": "15,5",
-    "description": "Crème de petits pois et menthe, provola fumée, petits pois, fèves, asperges vertes, oignons grelots en aigre-doux, stracciatella fumée et menthe fraiche on top",
-    "description_eng": "Peas and mint cream, smoked provola, peas, beans, green asparagus, sweet and sour onions, smoked stracciatella and fresh mint on top"
-  },
-  {
-    "title": "Aubergine Radio",
-    "type": "V",
-    "price": 14,
-    "description": "Aubergine ultra fondante recouverte d'un taboulé aux herbes, framboises, petits oignons nouveaux, éclats de noisettes, crème de fromage de chèvre, herbes fraîches et filet d'huile pimentée",
-    "description_eng": "Melting eggplant covered with a tabbouleh of herbs, raspberries, spring onions, hazelnut flakes, goat cheese cream, fresh herbs and a drizzle of chilli pepper oil"
-  },
-  {
-    "title": "Porchetta di Roma",
-    "type": "",
-    "price": 17,
-    "description": "Porchetta de cochon bien crispy, sauce demi-glace aux oignons grelots aigre-doux, acoquinée d'un onctueux écrasé de pommes de terre",
-    "description_eng": "Pig porchetta very crispy, sweet and sour onion demi-glace sauce, served with a creamy potato crumble"
-  },
-  {
-    "title": "Polponesofa",
-    "type": "",
-    "price": 22,
-    "description": "Coquin poulpe rôti, fraîche salade de cresson, pois chiches et asperges vertes, le tout servi sur un soyeux houmous de pois chiches",
-    "description_eng": "Naughty roasted octopus, fresh salad of watercress, chickpeas and green asparagus, all served on a silky chickpea hummus"
-  },
-  {
-    "title": "Jacquemousse",
-    "type": "",
-    "price": "8,5",
-    "description": "Divine mousse au chocolat noir et au chocolat au lait Valrhona, fleur de sel et filet d'huile d'olive sicilienne herbacée de Cédric Casanova",
-    "description_eng": "Divine Valrhona dark and milk chocolate mousse, fleur de sel, drizzle of Cédric Casanova's herbaceous sicilian olive oil"
-  },
-  {
-    "title": "Lemon Granger",
-    "type": "V",
-    "price": "12,5",
-    "description": "Énorme burrata de 250gr, gelée de citron bien fraîche, piment d'Espelette, menthe e basta",
-    "description_eng": "Huge 250gr burrata, fresh lemon jelly, Espelette chilli pepper, mint e basta"
-  },
-  {
-    "title": "Burrata e vignarola",
-    "type": "V",
-    "price": 9,
-    "description": "Baby burrata de 125gr, fraîche salade romaine de fèves, petits pois et artichauts",
-    "description_eng": "Baby burrata of 125gr, fresh romaine salad of beans, peas and artichokes"
-  },
-  {
-    "title": "Arancini alla norma",
-    "type": "V",
-    "price": 7,
-    "description": "Trois dodues boulettes frites au cœur crémeux de risotto aux aubergines et tomates San Marzano, ricotta salata et mayonnaise au basilic on top. Oh dio mio !",
-    "description_eng": "Three plump fried balls with a creamy heart of eggplant and San Marzano tomatoes risotto, ricotta salata and basil mayonnaise on top. Oh dio mio !"
-  },
-  {
-    "title": "Asparagus totalus",
-    "type": "V",
-    "price": 9,
-    "description": "Grosse tranche de pain de campagne recouverte d'asperges vertes grillées au barbecue, fines tranches de fromage Branzi et piment d'Espelette",
-    "description_eng": "Large slice of country bread covered with green asparagus grilled on the BBQ, thin slices of Branzi cheese and Espelette chilli pepper"
-  },
-  {
-    "title": "Maritozzo cacio e pepe",
-    "type": "V",
-    "price": 9,
-    "description": "Joufflue brioche fourrée à la salsa cacio e pepe, artichauts frits et menthe fraîche on top",
-    "description_eng": "Chubby brioche filled with salsa cacio e pepe, fried artichokes and fresh mint on top"
-  },
-  {
-    "title": "Leonardo di Carpaccio",
-    "type": "",
-    "price": 11,
-    "description": "Carpaccio de bar ultra frais, petits pois, éclats d'amandes, le tout arrosé d'un punchy jus de fruit de la passion",
-    "description_eng": "Very fresh sea bass carpaccio, peas, almond flakes, all drizzled with a punchy passion fruit juice"
-  },
-  {
-    "title": "Busiate al pesto trapanese",
-    "type": "V",
-    "price": "12,5",
-    "description": "Busiate au bon pesto trapanese - tomates Datterino et basilic -, basilic frais on top, le tout servi sur une extra-dose de ricotta. Vol direct vers la Sicilia !",
-    "description_eng": "Busiate with good trapanese pesto - Datterino tomatoes and basil -, fresh basil on top, all served on an extra dose of ricotta. Direct flight to Sicily!"
-  },
-  {
-    "title": "Pici all'amatriciana",
-    "type": "",
-    "price": "14,5",
-    "description": "Interminables pâtes pici à la sauce de tomates San Marzano et guanciale, pecorino râpé on top",
-    "description_eng": "Long pici pasta with San Marzano tomato sauce and guanciale, grated pecorino on top"
-  },
-  {
-    "title": "La tour de peas",
-    "type": "V",
-    "price": "13,5",
-    "description": "Démentes tagliatelle à la crème de petits pois, petites tomates Datterino confites, le tout recouvert de stracciatella fumée et piment frais",
-    "description_eng": "Insane tagliatelle with peas cream, little confit Datterino tomatoes, covered with smoked stracciatella and fresh chilli pepper"
-  },
-  {
-    "title": "Gnocchi do love you me?",
-    "type": "V",
-    "price": "14,5",
-    "description": "Gratin de gnocchi tout chaud, salsa ai formaggi. Un bonheur.",
-    "description_eng": "Hot gnocchi gratin, salsa ai formaggi. Happiness."
-  },
-  {
-    "title": "Gamberi Valli",
-    "type": "",
-    "price": "16,5",
-    "description": "Plin bien dodus, farcis à la ricotta et stracciatella fumée, gambas rôties, délicieuse bisque de crustacés et petites herbes fraîches",
-    "description_eng": "Plump plin stuffed with ricotta and smoked stracciatella, roasted prawns, delicious shellfish bisque and fresh herbs"
-  },
-  {
-    "title": "4EVER",
-    "type": "V",
-    "price": "13,5",
-    "description": "Crème de gorgonzola, mozza fior di latte, caciocavallo, parmigiano, miel, basilic",
-    "description_eng": "Gorgonzola cream, mozza fior di latte, caciocavallo, parmigiano, honey, fresh basil"
-  },
-  {
-    "title": "Regianna Nannini",
-    "type": "",
-    "price": 16,
-    "description": "Mozza fior di latte, carpaccio de champignons, jambon cuit aux herbes, olives taggiasche, ciboulette",
-    "description_eng": "Mozza fior di latte, button mushrooms, ham cooked with herbs, taggiasche olives, chives"
-  },
-  {
-    "title": "Hotter than hell",
-    "type": "",
-    "price": "14,5",
-    "description": "Mozza fior di latte, crème de ricotta au poivre, nduja, réduction de sauce de tomates San Marzano ultra hot, petits oignons rouges caramélisés",
-    "description_eng": "Mozza fior di latte, ricotta cream with pepper, nduja, very hot San Marzano tomato sauce reduction, caramelized red onions"
-  },
-  {
-    "title": "Kinky zucchini",
-    "type": "V",
-    "price": "15,5",
-    "description": "Crème de courgettes, mozza fior di latte, carpaccio de courgettes, stracciatella fumée",
-    "description_eng": "Zucchini cream, fior di latte mozzarella, zucchini carpaccio, smoked stracciatella"
-  },
-  {
-    "title": "Bresaolé olé",
-    "type": "",
-    "price": "15,5",
-    "description": "Focaccia ultra moelleuse, cuite au four à bois et recouverte de bresaola, roquette, copeaux de parmigiano et origan",
-    "description_eng": "Very soft focaccia, baked in a wood-fired oven and covered with bresaola, arugula, parmigiano shavings and oregano"
-  },
-  {
-    "title": "Tartare di manzo",
-    "type": "",
-    "price": 15,
-    "description": "Fondant tartare de bœuf coupé au couteau, jaune d'œuf couli-coulant, fèves et oignons de Tropea au vinaigre de vin rouge",
-    "description_eng": "Melting beef tartar cut with knife, flowing egg yolk, beans and Tropea onions with red wine vinegar"
-  },
-  {
-    "title": "Porc que tu m'aimes encore",
-    "type": "",
-    "price": 16,
-    "description": "Coquine poitrine de cochon cuite à basse température, petite salade de poivrons, crispy chapelure au paprika et fenouil sauvage",
-    "description_eng": "Naughty pork belly cooked at low temperature, little peppers salad, crispy breadcrumbs with paprika and wild fennel"
-  },
-  {
-    "title": "Un coup d'bar",
-    "type": "",
-    "price": 20,
-    "description": "Bar entier rôti au barbecue, salsa chimichurri et fraîche salade de pissenlits, salicornes",
-    "description_eng": "Whole sea bass roasted on the BBQ, chimichurri salsa and fresh dandelion salad, salicornia"
-  },
-  {
-    "title": "Insalata di primavera",
-    "type": "V",
-    "price": 14,
-    "description": "Asperges vertes grillées au barbecue, crème de petits pois, écrasé de pommes de terre violettes, petites herbes fraîches et big copeaux de pecorino",
-    "description_eng": "Green asparagus grilled on the BBQ, peas cream, crushed purple potatoes, fresh herbs and big pecorino shavings"
-  },
-  {
-    "title": "Baby burrata",
-    "type": "V",
-    "price": 9,
-    "description": "Mignonne burrata 125gr, soyeuse crème de poivrons rouges, olives taggiasche et câpres, poivrons rouges confits on top",
-    "description_eng": "Cute burrata of 125gr, red bell pepper cream, taggiasche olives and capers, confit red pepper on top"
-  },
-  {
-    "title": "Burrata al pesto verde",
-    "type": "V",
-    "price": "12,5",
-    "description": "Énorme burrata de 250g fourrée au pesto de basilic frais, en direct du Caseificio Montrone",
-    "description_eng": "Huge burrata of 250g filled with fresh basil pesto, directly from Caseificio Montrone"
-  },
-  {
-    "title": "Coup de foudre à Notting Ball",
-    "type": "",
-    "price": 8,
-    "description": "Big polpetta de pulled pork panée, crispy à l'extérieur, fondante à l'intérieur, ragù de sauce de tomates San Marzano et herbes fraîches",
-    "description_eng": "Big breaded pulled pork polpetta, crispy on the outside, melting on the inside, ragù of San Marzano tomato sauce and fresh herbs"
-  },
-  {
-    "title": "Bruschetta al vitello tonnato",
-    "type": "",
-    "price": 11,
-    "description": "Bruschetta bien croustillante, recouverte de fines tranches de veau rôti et salsa tonnata, mâche, pousses de betteraves, pommes allumettes, oignons frits et câpres frites",
-    "description_eng": "Very crispy bruschetta covered with roasted veal thin slices and salsa tonnata, lamb's lettuce, beet sprouts, matchsticks, fried onions and fried capers"
-  },
-  {
-    "title": "Bread Pitt",
-    "type": "V",
-    "price": 7,
-    "description": "Grosse tranche de pain de campagne grillée, asperges vertes, puntarelle, crème de fenouil et crème de gorgonzola",
-    "description_eng": "Large slice of toasted country bread, green asparagus, puntarelle, fennel cream and gorgonzola cream"
-  },
-  {
-    "title": "Culatello e gnocco fritto",
-    "type": "",
-    "price": 10,
-    "description": "Fines tranches de culatello, le cœur du jambon, salées et poivrées comme il faut, servies avec des croquants gnocco fritto",
-    "description_eng": "Thin slices of culatello, the heart of the ham, salted and peppered as needed, served with crispy gnocco fritto"
-  },
-  {
-    "title": "Tonnarelli alla norma",
-    "type": "V",
-    "price": "13,5",
-    "description": "Déments tonnarelli alla norma aux aubergines frites et sauce de tomates Datterino, ricotta salata râpée et basilic on top",
-    "description_eng": "Insane tonnarelli alla norma with fried eggplant and Datterino tomato sauce, grated salata ricotta and basil on top"
-  },
-  {
-    "title": "Ragù n' bone man",
-    "type": "",
-    "price": "14,5",
-    "description": "Interminables tonnarelli au ragù de coda alla vaccinara, herbes fraîches et éclats de crumble au chocolat on top, le tout servi sur une extra-dose de crème de pecorino",
-    "description_eng": "Long tonnarelli with coda alla vaccinara ragù, fresh herbs and chocolate crumble flakes on top, all served on an extra dose of pecorino cream"
-  },
-  {
-    "title": "Girella alla nerano",
-    "type": "V",
-    "price": "15,5",
-    "description": "Indécente girella farcie de courgettes alla scapece, ricotta et stracciatella fumée, crème de courgettes, fondue de caciocavallo, courgettes frites on top",
-    "description_eng": "Indecent girella stuffed with zucchini alla scapece, ricotta and smoked stracciatella, zucchini cream, melted caciocavallo, fried zucchini on top"
-  },
-  {
-    "title": "Agnolotti del plin alla genovese",
-    "type": "",
-    "price": "16,5",
-    "description": "Agnolotti del plin, farcis aux pommes de terre, petits pois, ricotta et pecorino, ragù d'agneau lentement cuit avec beaucoup, beaucoup d'oignons, parmigiano râpé, petits pois frais, zestes de citron et herbes fraîches on top",
-    "description_eng": "Agnolotti del plin, stuffed with potatoes, peas, ricotta and pecorino, lamb ragù slowly cooked with many many onions, grated parmigiano, fresh peas, lemon zest and fresh herbs on top"
-  },
-  {
-    "title": "Gnocchi Larson",
-    "type": "",
-    "price": "17,5",
-    "description": "Joufflus gnocchi alle vongole : palourdes, tomates Datterino, éclats de taralli aux amandes straight from Napoli et filet d'huile verte aux herbes",
-    "description_eng": "Chubby gnocchi alle vongole: clams, Datterino tomatoes, flakes of almond taralli straight from Napoli and drizzle of green oil with herbs"
-  },
-  {
-    "title": "Parmigianana Mouskouri",
-    "type": "V",
-    "price": "13,5",
-    "description": "Parmigiana d'aubergines - aubergines frites, sauce de tomates San Marzano, mozza fior di latte et parmigiano -, ricotta salata et basilic on top",
-    "description_eng": "Eggplant parmigiana - fried eggplant, San Marzano tomato sauce, mozza fior di latte and parmigiano -, ricotta salata and basil on top"
-  },
-  {
-    "title": "Regina Instagram",
-    "type": "",
-    "price": 16,
-    "description": "Mozza fior di latte, sauce de tomates San Marzano, jambon cuit aux herbes, carpaccio de champignons, herbes fraîches",
-    "description_eng": "Mozza fior di latte, San Marzano tomato sauce, cooked ham with herbs, mushroom carpaccio, fresh herbs"
-  },
-  {
-    "title": "Honey money",
-    "type": "V",
-    "price": "13,5",
-    "description": "Ricotta aux herbes, mozza fior di latte, fromage de chèvre, parmigiano, miel, poivre noir, herbes fraîches",
-    "description_eng": "Ricotta with herbs, mozza fior di latte, goat cheese, parmigiano, honey, black pepper, fresh herbs"
-  },
-  {
-    "title": "Drop like it's hot",
-    "type": "",
-    "price": "14,5",
-    "description": "Crème de poivrons rouges, polpette di salsiccia de cochon et nudja, oignons rouges frits, herbes fraîches",
-    "description_eng": "Red pepper cream, polpette di salsiccia of pig and nudja, fried red onions, fresh herbs"
-  },
-  {
-    "title": "Easy peasy",
-    "type": "",
-    "price": "15,5",
-    "description": "Mozza fior di latte, crème de petits pois et petits pois frais, pancetta de cochon, fondue de pecorino, herbes fraîches",
-    "description_eng": "Mozza fior di latte, peas cream and fresh peas, pig pancetta, melted pecorino, fresh herbs"
-  },
-  {
-    "title": "Parmigiana di Napoli",
-    "type": "V",
-    "price": 13,
-    "description": "Parmigiana bien hot aux aubergines frites, provola fumée, parmigiano, sauce de tomates San Marzano, basilic",
-    "description_eng": "Hot parmigiana with fried eggplant, smoked provola, parmigiano, San Marzano tomato sauce, basil"
-  },
-  {
-    "title": "Octopus petrificus",
-    "type": "",
-    "price": 19,
-    "description": "Poulpe pané ultra crispy, petite salade d'épinards, oignons rouges marinés et herbes fraîches, crème de stracciatella, zestes de citron, le tout servi avec des petites pommes de terre grenaille",
-    "description_eng": "Crispy breaded octopus, little spinach salad, marinated red onions and fresh herbs, stracciatella cream, lemon zest, all served with little fried potatoes"
-  },
-  {
-    "title": "Banoffee pie",
-    "type": "",
-    "price": "8,5",
-    "description": "Éclats de spéculoos, crème de banane et caramel toffee, copeaux de gianduja râpés on top",
-    "description_eng": "Speculoos flakes, banana cream and toffee, grated gianduja on top"
-  },
-  {
-    "title": "Sundae kind of love",
-    "type": "",
-    "price": "9,5",
-    "description": "Gelato fior di latte topée d'un punchy coulis exotique, meringue, fruit de la passion et mangue fraîche on top",
-    "description_eng": "Gelato fior di latte topped with exotic coulis, meringue, passion fruit and fresh mango on top"
-  },
-  {
-    "title": "Burrata al pesto rosso",
-    "type": "V",
-    "price": "13,5",
-    "description": "Énorme burrata de 250gr fourrée au pesto rosso et servie avec un croquant pane carasau frit, un pain typique de Sardaigne, piment séché et basilic on top",
-    "description_eng": "Huge burrata of 250gr filled with pesto rosso and served with a crunchy fried pane carasau, a typical Sardinian bread, chilli pepper and basil on top"
-  },
-  {
-    "title": "Fatal burrata de 500gr",
-    "type": "V",
-    "price": 24,
-    "description": "Gigantesque burrata d'un demi-kilo à partager (ou pas), petites tomates confites, filet d'huile d'olive, basilic et poivre noir. Wooow.",
-    "description_eng": "Giant half kilo of burrata to share (or not), little confit tomatoes, drizzle of olive oil, basil and black pepper. Wooow."
-  },
-  {
-    "title": "Frittatina di bucatini alla parmigiana",
-    "type": "V",
-    "price": 7,
-    "description": "Beignets de bucatini frits ultra croustillants, parmigiana d'aubergines frites, provola, parmigiano râpé on top",
-    "description_eng": "Fried bucatini fritters very crispy, fried eggplant parmigiana, provola, grated parmigiano on top"
-  },
-  {
-    "title": "Arancini alla carbonara",
-    "type": "",
-    "price": 8,
-    "description": "Trois dodues boulettes frites, panées à la chapelure panko et farcies de risotto alla salsa carbonara - crème d'œuf et poivre, crousty guanciale -, recouvertes d'une avalanche de crème pecorino. Oh dio mio !",
-    "description_eng": "Three plump fried balls, breaded with panko breadcrumbs and stuffed with risotto alla salsa carbonara - egg and pepper cream, crousty guanciale -, covered with an avalanche of pecorino cream. Oh dio mio !"
-  },
-  {
-    "title": "Don't bread my heart",
-    "type": "V",
-    "price": 9,
-    "description": "Croustillante bruschetta recouverte d'un trio de tomates bien juteuses - cœur de bœuf, green zebra et ananas -, sauce de tomates Datterino brûlées, stracciatella fumée et filet d'huile d'olive",
-    "description_eng": "Crunchy bruschetta covered with a trio of juicy tomatoes - beef heart, green zebra and pineapple -, burnt Datterino tomato sauce, smoked stracciatella and a drizzle of olive oil"
-  },
-  {
-    "title": "Houmous of Cards",
-    "type": "V",
-    "price": 8,
-    "description": "Croquant pane carasau frit, un pain typique de Sardaigne, à trempouiller dans un soyeux houmous de pois chiches, caponata d'aubergines, filet d'huile d'olive et basilic",
-    "description_eng": "Crispy fried pane carasau, a typical Sardinian bread, to dip in a silky chickpea hummus, eggplant caponata, drizzle of olive oil and basil"
-  },
-  {
-    "title": "La dolceviche",
-    "type": "",
-    "price": 11,
-    "description": "Ceviche de bar bien frais, oignons rouges, petites tomates Datterino confites, sucrine, olives taggiasche séchées, fenouil, le tout arrosé d'un jus de fruit de la passion et menthe",
-    "description_eng": "Very fresh sea bass ceviche, red onions, little confit Datterino tomatoes, sucrine, dried taggiasche olives, fennel, all drizzled with a passion fruit and mint juice"
-  },
-  {
-    "title": "Scialatielli al pesto",
-    "type": "V",
-    "price": "13,5",
-    "description": "Délicieuses pâtes scialatielli au pesto de basilic, basilic frais, petites tomates Datterino confites et stracciatella fumée",
-    "description_eng": "Delicious scialatielli pasta with basil pesto, fresh basil, confit Datterino tomatoes and smoked stracciatella"
-  },
-  {
-    "title": "Gnocchi Minaj",
-    "type": "V",
-    "price": "14,5",
-    "description": "Les incontournables gnocchi alla sorrentina, sauce de tomates San Marzano, provola et parmigiano gratinés, filet d'huile au basilic et basilic frais on top",
-    "description_eng": "The unmissable gnocchi alla sorrentina, San Marzano tomato sauce, provola and parmigiano gratin, drizzle of basil oil and fresh basil on top"
-  },
-  {
-    "title": "Porc le meilleur et pour le pire",
-    "type": "",
-    "price": "15,5",
-    "description": "Paccheri au coquin ragù de cochon - épaule et poitrine -, cuit pendant 8h, big copeaux de pecorino et laurier frit",
-    "description_eng": "Paccheri with pork ragù - shoulder and belly -, cooked for 8 hours, big pecorino shavings and fried bay leaf"
-  },
-  {
-    "title": "Paccheri al pesce spada",
-    "type": "",
-    "price": "17,5",
-    "description": "Crazy paccheri au bon ragù d'espadon et tomates Datterino, poudre de pain aux olives et agrumes, persil séché on top",
-    "description_eng": "Crazy paccheri with swordfish ragù and Datterino tomatoes, bread powder with olives and citrus, dried parsley on top"
-  },
-  {
-    "title": "Bunny and Clyde",
-    "type": "",
-    "price": "16,5",
-    "description": "Joufflus ravioli fourrés au ragù de lapin, tomates séchées, ricotta, olives taggiasche et noisettes, beurre de sauge et jus de viande",
-    "description_eng": "Chubby ravioli filled with rabbit ragù, dried tomatoes, ricotta, taggiasche olives and hazelnuts, sage butter and meat juice"
-  },
-  {
-    "title": "Veggie Hadid",
-    "type": "V",
-    "price": "13,5",
-    "description": "Crème de petits pois, courgettes vertes et jaunes grillées, mozza fior di latte, tomates confites, olives taggiasche, filet d'huile d'olive au basilic",
-    "description_eng": "Peas cream, grilled green and yellow zucchini, mozza fior di latte, confit tomatoes, taggiasche olives, drizzle of olive oil with basil"
-  },
-  {
-    "title": "Dancing queen",
-    "type": "",
-    "price": 16,
-    "description": "Base bianca, mozza fior di latte, ricotta, jambon cuit aux herbes, olives taggiasche, champignons de Paris, ciboulette et basilic",
-    "description_eng": "Base bianca, mozza fior di latte, ricotta, ham cooked with herbs, taggiasche olives, button mushrooms, chives and basil"
-  },
-  {
-    "title": "Harry Hotter",
-    "type": "",
-    "price": "14,5",
-    "description": "Crème de poivrons jaunes et nduja, spianata piccante, fondue de gorgonzola, estragon et basilic",
-    "description_eng": "Yellow pepper and nduja cream, spianata piccante, melted gorgonzola, tarragon and basil"
-  },
-  {
-    "title": "Faire un ENCART GRILL VIANDES D'EXCEPTION\nChanger l'encart et le mettre sous les secondi please",
-    "type": "",
-    "price": 80,
-    "description": "ALLA GRIGLIA - Nos pièces de bœuf d'exception per 2\n\nCôte de bœuf Angus d'Écosse, maturée sur os - 1kg de viande 55€/personne\nCôte de bœuf de Normandie, maturée sur os - 1kg de viande 40€/personne\n\nServies avec des petites pommes de terre à l'ail et au romarin, un cool trio de sauces et une belle salade d'endives recouverte de copeaux de parmigiano",
-    "description_eng": ""
-  },
-  {
-    "title": "Le seigneur des agnello",
-    "type": "",
-    "price": "40 par personne",
-    "description": "Big épaule d'agneau cuite tout doucement pendant 12h dans du vin blanc, laurier et sauge, servie avec des pommes de terre à l'ail et au romarin et une petite salade de sucrine, pommes de terre rôties, radis, pois gourmands et sauce au yaourt citronné",
-    "description_eng": "Big lamb shoulder cooked slowly for 12 hours in white wine, laurel and sage, served with garlic and rosemary potatoes and a little salad of sucrine, roasted potatoes, radishes, snow peas and yoghurt sauce with lemon"
-  },
-  {
-    "title": "Marco Polpo",
-    "type": "",
-    "price": 22,
-    "description": "Affriolant poulpe cuit à basse température, arrosé d'un punchy jus de citron vert et cardamome, acoquiné d'une délicieuse salade de frisée, pommes de terre rôties, pois gourmands et oignons nouveaux, mayonnaise aux câpres et ciboulette on top",
-    "description_eng": "Attractive octopus cooked at low temperature, drizzled with a punchy lime and cardamom juice, served with a delicious salad of frisée, roasted potatoes, snow peas and spring onions, caper mayonnaise and chives on top"
-  },
-  {
-    "title": "Cardi Beef",
-    "type": "",
-    "price": 19,
-    "description": "Surprise de bœuf persillée, une pièce bien fondante et juteuse, salsa verde et citron jaune grillé, servie avec sa clique de pommes de terre à l'ail et au romarin",
-    "description_eng": "Surprise of marbled beef, a melting and juicy piece, salsa verde and grilled lemon, served with its clique of garlic and rosemary potatoes"
-  },
-  {
-    "title": "L'entrecôte cotée",
-    "type": "",
-    "price": 27,
-    "description": "Démente entrecôte de bœuf de Normandie bien tendre, salsa verde et citron jaune grillé, servie avec sa clique de pommes de terre à l'ail et au romarin",
-    "description_eng": "Insane Normandy beef entrecote very tender, salsa verde and grilled yellow lemon, served with its clique of garlic and rosemary potatoes"
-  },
-  {
-    "title": "Bombetta gorgonzola",
-    "type": "",
-    "price": 19,
-    "description": "Coquine brochette de capocollo de cochon farcie au gorgonzola, nduja et pousses d'épinard, servie avec des pommes de terre à l'ail et au romarin, une salade de sucrine et pousses de betterave, et une sauce aigre-douce à la moutarde et aux oignons rouges",
-    "description_eng": "Naughty pig capocollo skewer stuffed with gorgonzola, nduja and spinach shoots, served with garlic and rosemary potatoes, a sucrine and beet salad, and a sweet and sour mustard and red onion sauce"
-  },
-  {
-    "title": "Insalata caprese 2.0",
-    "type": "V",
-    "price": 13,
-    "description": "Généreuse salade caprese aux tomates cœur de bœuf, zebra et ananas, sauce de tomates Datterino brûlées, pesto de basilic, mozza di bufala fumée",
-    "description_eng": "Generous caprese salad with beef heart, zebra and pineapple tomatoes, burnt Datterino tomato sauce, basil pesto, smocked mozza di bufala"
-  },
-  {
-    "title": "Les BFF de nos secondi",
-    "type": "V",
-    "price": 5,
-    "description": "Mignonnes pommes de terre au romarin et à l'ail",
-    "description_eng": "Cute potatoes with rosemary and garlic"
-  },
-  {
-    "title": "La crème de la crème",
-    "type": "",
-    "price": "12,5",
-    "description": "Crème brûlée XXXL à la vanille bio, crousty base de praliné aux noisettes et feuillantine. Et c'est parti pour le chaud !",
-    "description_eng": "XXXL crème brûlée with organic vanilla, crousty hazelnut praline base and feuillantine. And let's go for the hot show!"
-  },
-  {
-    "title": "Cheeseleader",
-    "type": "V",
-    "price": 8,
-    "description": "Bâtonnets de fromage provolone spicy, panés et bien cheesy, servis avec une sauce barbecue pimentée",
-    "description_eng": "Spicy provolone cheese sticks, breaded and cheesy, served with a spicy barbecue sauce"
-  },
-  {
-    "title": "Arancini ai piselli",
-    "type": "",
-    "price": 8,
-    "description": "Trois dodues boulettes frites au cœur crémeux de risotto, petits pois, provola, pecorino et guanciale, crispy speck et parmigiano râpé on top. Oh dio mio !",
-    "description_eng": "Three plump fried balls with a creamy heart of risotto, peas, provola, pecorino and guanciale, crispy speck and grated parmigiano on top. Oh dio mio !"
-  },
-  {
-    "title": "Fusilli alla norma",
-    "type": "V",
-    "price": "12,5",
-    "description": "Délicieux fusilli à la sauce de tomates San Marzano et Datterino, aubergines frites, ricotta salata, basilic on top",
-    "description_eng": "Delicious fusilli with San Marzano and Datterino tomato sauce, fried eggplant, ricotta salata, basil on top"
-  },
-  {
-    "title": "Zucchini vu ni connu",
-    "type": "V",
-    "price": "13,5",
-    "description": "Crazy paccheri aux courgettes frites, copeaux de provolone, olives taggiasche séchées, menthe fraîche et parmigiano râpé / supplément stracciatella fumée + 3€",
-    "description_eng": "Crazy paccheri with fried zucchini, provolone shavings, dried taggiasche olives, fresh mint and grated parmigiano / extra smoked stracciatella + 3€"
-  },
-  {
-    "title": "Sea you soon",
-    "type": "",
-    "price": "17,5",
-    "description": "Démentes linguine aux palourdes, moules, persil et sauce de tomates Datterino. Vol direct vers Napoli !",
-    "description_eng": "Insane linguine with clams, mussels, parsley and Datterino tomato sauce. Direct flight to Napoli!"
-  },
-  {
-    "title": "Burratelli ripieni",
-    "type": "V",
-    "price": "15,5",
-    "description": "Burratelli farcis à la stracciatella fumée et au basilic, recouverts de sauce de tomates San Marzano et Datterino, petites tomates et herbes fraîches",
-    "description_eng": "Burratelli stuffed with smoked stracciatella and basil, covered with San Marzano and Datterino tomato sauce, little tomatoes and fresh herbs"
-  },
-  {
-    "title": "Bunny Parker",
-    "type": "",
-    "price": "16,5",
-    "description": "Mignonnes pâtes girasoli farcies au bon ragù de lapin et ricotta, soyeuse sauce demi-glace et beurre noisette, olives taggiasche séchées, sauge frite et marjolaine on top",
-    "description_eng": "Cute girasoli pasta stuffed with rabbit ragù and ricotta, silky demi-glace sauce and hazelnut butter, dried taggiasche olives, fried sage and marjoram on top"
-  },
-  {
-    "title": "Margherita Duras",
-    "type": "V",
-    "price": "13,5",
-    "description": "Mozza fior di latte, sauce de tomates San Marzano, parmigiano, mozzarella di bufala bien juteuse, basilic frais",
-    "description_eng": "Mozza fior di latte, San Marzano tomato sauce, parmigiano, very juicy mozzarella di bufala, fresh basil"
-  },
-  {
-    "title": "La reina del flow",
-    "type": "",
-    "price": 16,
-    "description": "Sauce de tomates San Marzano, jambon cuit aux herbes, carpaccio de champignons, olives taggiasche séchées, ciboulette",
-    "description_eng": "San Marzano tomato sauce, cooked ham with herbs, mushroom carpaccio, dried taggiasche olives, chives"
-  },
-  {
-    "title": "Cheesy l'impératrice",
-    "type": "V",
-    "price": "14,5",
-    "description": "Ricotta, parmigiano, pecorino, fromage de chèvre, noix de pécan, miel",
-    "description_eng": "Ricotta, parmigiano, pecorino, goat cheese, pecans, honey"
-  },
-  {
-    "title": "Hot Machine",
-    "type": "",
-    "price": "13,5",
-    "description": "Crème de poivrons rouges et nduja piccante, spianata piccante, fondue de pecorino, parmigiano et ricotta, piment vert",
-    "description_eng": "Red peppers and nduja piccante cream, spianata piccante, melted pecorino, parmigiano and ricotta, green chilli pepper"
-  },
-  {
-    "title": "Tartruffe",
-    "type": "V",
-    "price": 19,
-    "description": "Ricotta et sauce à la truffe, mozza fior di latte, petits champignons de Paris cuits, poireaux frits, truffe fraîche de saison, ciboulette",
-    "description_eng": "Ricotta and truffle sauce, mozza fior di latte, little cooked mushrooms, fried leeks, fresh seasonal truffle, chives"
-  },
-  {
-    "title": "Frisella pugliese",
-    "type": "V",
-    "price": 13,
-    "description": "Deux croustillantes tranches de frisella, un biscuit de pâte à pizza grillé typique des Pouilles, recouvertes de légumes rôtis - aubergines, courgettes, poivrons rouges et jaunes -, stracciatella fumée, olive taggiasche séchées et filet d'huile au basilic",
-    "description_eng": "Two crispy slices of frisella, a typical Pugliese toasted pizza dough biscuit, covered with roasted vegetables - eggplant, zucchini, red and yellow peppers -, smoked stracciatella, dried taggiasche olives and a drizzle of basil oil"
-  },
-  {
-    "title": "Bœuffy contre les vampires",
-    "type": "",
-    "price": 16,
-    "description": "Fondant tartare de bœuf coupé au couteau, fenouil, câpres frites, petite touche de salsa ponzu au yuzu et vinaigre de riz, le tout acoquiné de pommes de terre rôties",
-    "description_eng": "Melting beef tartar cut by a knife, fennel, fried capers, little touch of ponzu salsa with yuzu and rice vinegar, all served with roasted potatoes"
-  },
-  {
-    "title": "El polpo",
-    "type": "",
-    "price": 18,
-    "description": "Coquin poulpe frit et pané aux corn flakes, salsa nduja vegan - poivrons rouges, tomates séchées et piments bien hot -, servi avec des haricots cocos, ciboulette on top",
-    "description_eng": "Naughty fried octopus breaded with corn flakes, vegan nduja salsa - red peppers, dried tomatoes and hot chilli peppers -, served with coconut beans, chives on top"
-  },
-  {
-    "title": "Symphonie de mozzarella",
-    "type": "V",
-    "price": 7,
-    "description": "Juteuse mozza di bufala de 125gr, herbes fraîches, filet d'huile d'olive e basta",
-    "description_eng": "Juicy mozza di bufala of 125gr, fresh herbs, drizzle of olive oil e basta"
-  },
-  {
-    "title": "Burrata colorata",
-    "type": "V",
-    "price": "13,5",
-    "description": "Énorme burrata de 250gr aux courgettes, aubergines, carottes et céleri, filet d'huile d'olive",
-    "description_eng": "Huge burrata of 250gr with zucchini, eggplant, carrots and celery, drizzle of olive oil"
-  },
-  {
-    "title": "Artichokes de choc",
-    "type": "V",
-    "price": 7,
-    "description": "Clique d'artichauts frits, avalanche de pecorino fondu. Oh dio mio !",
-    "description_eng": "Team of fried artichokes, avalanche of melted pecorino. Oh dio mio !"
-  },
-  {
-    "title": "Arancini al ragù di maiale",
-    "type": "",
-    "price": 8,
-    "description": "Dodues boulettes frites, farcies de risotto au ragù de cochon et mozza fior di latte, parmigiano râpé on top",
-    "description_eng": "Plump fried balls, stuffed with risotto of pig's ragù and mozza fior di latte, grated parmigiano on top"
-  },
-  {
-    "title": "Bruschetta alla caponata",
-    "type": "V",
-    "price": 8,
-    "description": "Grosse tranche de pain de campagne grillée, recouverte de ricotta fraîche aux herbes et de caponata typique de Sicilia aux aubergines, tomates Datterino, céleri et ricotta salata",
-    "description_eng": "Big slice of toasted country bread, covered with fresh ricotta with herbs and typical Sicilian caponata with eggplant, Datterino tomatoes, celery and ricotta salata"
-  },
-  {
-    "title": "Squid Cudi",
-    "type": "",
-    "price": 9,
-    "description": "Encornets frits bien croustillants, servis avec une punchy mayonnaise vegan au citron. Un bonheur.",
-    "description_eng": "Crispy fried squid, served with a punchy vegan lemon mayonnaise. Happiness."
-  },
-  {
-    "title": "Insalata di puntarella",
-    "type": "V",
-    "price": 7,
-    "description": "Mignonne salade de puntarelle, salicornes, quinoa rouge, crème d'ail, zestes de citron et filet d'huile d'olive",
-    "description_eng": "Cute salad with puntarella, salicornia, red quinoa, garlic cream, lemon zest and a drizzle of olive oil"
-  },
-  {
-    "title": "Spaghetti alla nerano",
-    "type": "V",
-    "price": "12,5",
-    "description": "Déments spaghetti quadrati, crème de courgettes alla scapece, caciocavallo râpé et courgettes jaunes frites on top / supplément stracciatella fumée +3 €",
-    "description_eng": "Insane spaghetti quadrati, cream of zucchini alla scapece, grated caciocavallo and fried yellow zucchini on top / extra smoked stracciatella + 3€"
-  },
-  {
-    "title": "Paccheri Bradshaw",
-    "type": "",
-    "price": "14,5",
-    "description": "Crazy paccheri au ragù de cochon - poitrine et palette -, sauce de tomates San Marzano, sauge frite, laurier et copeaux de parmigiano",
-    "description_eng": "Crazy paccheri with pork ragù - belly and chuck -, San Marzano tomato sauce, fried sage, bay leaf and parmigiano shavings"
-  },
-  {
-    "title": "Polpo(lare)",
-    "type": "",
-    "price": "17,5",
-    "description": "Interminables tagliatelle au bon ragù de poulpe, sauce de tomates San Marzano et estragon",
-    "description_eng": "Long tagliatelle with octopus ragù, San Marzano tomato sauce and tarragon"
-  },
-  {
-    "title": "Burratelli al pomodoro",
-    "type": "V",
-    "price": "15,5",
-    "description": "Burratelli bien dodus farcis à la stracciatella fumée, recouverts de sauce de tomates San Marzano et Datterino, fondue de mozzarella di bufala, filet d'huile d'olive et basilic",
-    "description_eng": "Plump burratelli stuffed with smoked stracciatella, covered with San Marzano and Datterino tomato sauce, melted mozzarella di bufala, a drizzle of olive oil and basil"
-  },
-  {
-    "title": "Jane the Aubergine",
-    "type": "V",
-    "price": "13,5",
-    "description": "Sauce de tomates San Marzano, aubergines frites, ricotta salata, basilic",
-    "description_eng": "San Marzano tomato sauce, fried eggplant, ricotta salata, basil"
-  },
-  {
-    "title": "Team roquette",
-    "type": "V",
-    "price": "15,5",
-    "description": "Pesto de roquette et parmigiano, mozza fior di latte, tomates confites, stracciatella fumée, crispy taralli on top",
-    "description_eng": "Arugula and parmigiano pesto, mozza fior di latte, confit tomatoes, smoked stracciatella, crispy taralli on top"
-  },
-  {
-    "title": "Cheesy Kings",
-    "type": "V",
-    "price": "13,5",
-    "description": "Ricotta, mozza fior di latte, fromage Taleggio, parmigiano râpé, oignons rouges confits, miel, éclats de noix de pécan",
-    "description_eng": "Ricotta, mozza fior di latte, Taleggio cheese, grated parmigiano, confit red onions, honey, pecan flakes"
-  },
-  {
-    "title": "Peas and love",
-    "type": "",
-    "price": 16,
-    "description": "Crème de petits pois, mozza fior di latte, petits champignons de Paris, jambon cuit aux herbes, olives taggiasche, basilic",
-    "description_eng": "Peas cream, mozza fior di latte, little mushrooms, ham cooked with herbs, taggiasche olives, basil"
-  },
-  {
-    "title": "The Truffeman Show",
-    "type": "V",
-    "price": 19,
-    "description": "Ricotta et sauce à la truffe, mozza fior di latte, petits champignons de Paris cuits, truffe fraîche de saison",
-    "description_eng": "Ricotta and truffle sauce, mozza fior di latte, cooked button mushrooms, fresh seasonal truffle"
-  },
-  {
-    "title": "Too hot to handle",
-    "type": "",
-    "price": "14,5",
-    "description": "Crème de poivrons rouges, mozza fior di latte, spianata piccante, stracciatella fumée, piment rouge",
-    "description_eng": "Red peppers cream, mozza fior di latte, spianata piccante, smoked stracciatella, red chilli pepper"
-  },
-  {
-    "title": "Caesar Palace",
-    "type": "",
-    "price": 15,
-    "description": "Fraîches feuilles de sucrine, roquette et endive, aiguillettes de poulet frit, radis multicolores, courgettes jaunes, fenouil, amandes",
-    "description_eng": "Fresh leaves of sucrine, arugula and endive, fried chicken aiguillettes, multicolored radishes, yellow zucchini, fennel, almonds"
-  },
-  {
-    "title": "Braciola di Puglia",
-    "type": "",
-    "price": 18,
-    "description": "Coquin capocollo de cochon gratiné et farci à l'ail, piment rouge et parmigiano, cuit tout doucement dans la sauce de tomates San Marzano, le tout acoquiné d'épinards sautés",
-    "description_eng": "Pork capocollo gratin and stuffed with garlic, red chilli pepper and parmigiano, cooked slowly in San Marzano tomato sauce, served with sautéed spinach"
-  },
-  {
-    "title": "Churros del Piemonte",
-    "type": "",
-    "price": "8,5",
-    "description": "Churros recouverts de notre incroyable pâte à tartiner Big Mamma",
-    "description_eng": "Churros covered with our incredible Big Mamma chocolate spread"
+    "title": "CROISSANT",
+    "description": "",
+    "default_price": 2
   }
 ]
