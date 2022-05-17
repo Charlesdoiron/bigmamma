@@ -18,7 +18,9 @@
   "attributes": {
     "category": {
       "type": "dynamiczone",
-      "components": ["categories.category"],
+      "components": [
+        "categories.category"
+      ],
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -103,7 +105,12 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": ["images", "files", "videos", "audios"],
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -154,7 +161,12 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": ["images", "files", "videos", "audios"],
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -165,7 +177,9 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": ["files"],
+      "allowedTypes": [
+        "files"
+      ],
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -176,7 +190,9 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": ["images"],
+      "allowedTypes": [
+        "images"
+      ],
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -627,6 +643,14 @@
         "Pacific/Wal"
       ],
       "default": "Europe/Paris"
+    },
+    "quality_content": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text"
     }
   }
 }
