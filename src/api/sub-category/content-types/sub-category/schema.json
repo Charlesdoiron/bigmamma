@@ -31,6 +31,15 @@
           "localized": true
         }
       }
+    },
+    "is_accordion": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "boolean",
+      "default": false
     }
   }
 }
