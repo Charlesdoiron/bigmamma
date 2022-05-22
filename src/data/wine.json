@@ -2,561 +2,561 @@
   {
     "title": "OLMECA PLATA",
     "description": "",
-    "price": 6
+    "default_price": 6
   },
   {
     "title": "PATRON ANEJO",
     "description": "",
-    "price": 19
+    "default_price": 19
   },
   {
     "title": "DEL MAGUEY VIDA",
     "description": "",
-    "price": "7,5"
+    "default_price": "7,5"
   },
   {
     "title": "APEROL",
     "description": "",
-    "price": 4
+    "default_price": 4
   },
   {
     "title": "CAMPARI",
     "description": "",
-    "price": 4
+    "default_price": 4
   },
   {
     "title": "MARTINI AMBRATO",
     "description": "",
-    "price": 4
+    "default_price": 4
   },
   {
     "title": "MARTINI RUBINO",
     "description": "",
-    "price": 4
+    "default_price": 4
   },
   {
     "title": "MARTINI EXTRA DRY",
     "description": "",
-    "price": 4
+    "default_price": 4
   },
   {
     "title": "LILLET BLANC",
     "description": "",
-    "price": 4
+    "default_price": 4
   },
   {
     "title": "CARPANO PUNT&MES",
     "description": "",
-    "price": 4
+    "default_price": 4
   },
   {
     "title": "CARPANO ANTICA FORMULA",
     "description": "",
-    "price": 4
+    "default_price": 4
   },
   {
     "title": "Alcohol Free Spaten Hell",
     "description": "Alcohol Free Spaten Hell",
-    "price": "4,5"
+    "default_price": "4,5"
   },
   {
     "title": "Franziskaner Weissbier Light",
     "description": "Franziskaner Weissbier Light",
-    "price": "4,5"
+    "default_price": "4,5"
   },
   {
     "title": "Franziskaner Weissbier Dark",
     "description": "Franziskaner Weissbier Dark",
-    "price": "4,5"
+    "default_price": "4,5"
   },
   {
     "title": "Franziskaner Weissbier Alcohol Free",
     "description": "Franziskaner Weissbier Alcohol Free",
-    "price": "4,5"
+    "default_price": "4,5"
   },
   {
     "title": "LEBLON",
     "description": "",
-    "price": 6
+    "default_price": 6
   },
   {
     "title": "COGNAC MARTELL",
     "description": "",
-    "price": 6
+    "default_price": 6
   },
   {
     "title": "CYNAR",
     "description": "",
-    "price": 4
+    "default_price": 4
   },
   {
     "title": "PASTIS 51",
     "description": "",
-    "price": 4
+    "default_price": 4
   },
   {
     "title": "AMARO DEL CAPO",
     "description": "",
-    "price": 4
+    "default_price": 4
   },
   {
     "title": "AMARO AVERNA",
     "description": "",
-    "price": 4
+    "default_price": 4
   },
   {
     "title": "AMORA RAMAZZOTTI",
     "description": "",
-    "price": 4
+    "default_price": 4
   },
   {
     "title": "AMARO MONTENEGRO",
     "description": "",
-    "price": 4
+    "default_price": 4
   },
   {
     "title": "FERNET BRANCA",
     "description": "",
-    "price": 4
+    "default_price": 4
   },
   {
     "title": "BRANCA MENTA",
     "description": "",
-    "price": 4
+    "default_price": 4
   },
   {
     "title": "MEER TONIC",
     "description": "Gin Beefeater, Blue Curacao liqueur, vanilla bitter, tonic water Schweppes Premium Mixer",
-    "price": 10
+    "default_price": 10
   },
   {
     "title": "SHAKE IT OFF",
     "description": "Gin Beefeater, mint, red fruits syrup, apple juice",
-    "price": 15
+    "default_price": 15
   },
   {
     "title": "BEEFEATER",
     "description": "",
-    "price": 6
+    "default_price": 6
   },
   {
     "title": "MALFY",
     "description": "",
-    "price": "6,5"
+    "default_price": "6,5"
   },
   {
     "title": "PLYMOUTH",
     "description": "",
-    "price": "6,5"
+    "default_price": "6,5"
   },
   {
     "title": "TANQUERAY 10",
     "description": "",
-    "price": "6,5"
+    "default_price": "6,5"
   },
   {
     "title": "THE DUKE",
     "description": "",
-    "price": "7,5"
+    "default_price": "7,5"
   },
   {
     "title": "ROKU",
     "description": "",
-    "price": "7,5"
+    "default_price": "7,5"
   },
   {
     "title": "HENDRICKS",
     "description": "",
-    "price": "7,5"
+    "default_price": "7,5"
   },
   {
     "title": "MONKEY 47",
     "description": "",
-    "price": 10
+    "default_price": 10
   },
   {
     "title": "BRICK ORGANIC",
     "description": "",
-    "price": 10
+    "default_price": 10
   },
   {
     "title": "GRAPPA DI BAROLO",
     "description": "",
-    "price": 9
+    "default_price": 9
   },
   {
     "title": "GRAPPA DI BRUNELLO",
     "description": "",
-    "price": 9
+    "default_price": 9
   },
   {
     "title": "GRAPPA CLASSICA",
     "description": "",
-    "price": 6
+    "default_price": 6
   },
   {
     "title": "GRAPPA DI MOSCATO INVECCHIATO",
     "description": "",
-    "price": "7,5"
+    "default_price": "7,5"
   },
   {
     "title": "ITALICUS",
     "description": "",
-    "price": 5
+    "default_price": 5
   },
   {
     "title": "ST GERMAIN",
     "description": "",
-    "price": 5
+    "default_price": 5
   },
   {
     "title": "BAILEYS",
     "description": "",
-    "price": 4
+    "default_price": 4
   },
   {
     "title": "CHARTREUSE GRUN",
     "description": "",
-    "price": "7,5"
+    "default_price": "7,5"
   },
   {
     "title": "CHARTREUSE GELB",
     "description": "",
-    "price": "7,5"
+    "default_price": "7,5"
   },
   {
     "title": "AMARETTO DI SARONNO",
     "description": "",
-    "price": 4
+    "default_price": 4
   },
   {
     "title": "FRANGELICO",
     "description": "",
-    "price": 4
+    "default_price": 4
   },
   {
     "title": "JAEGERMEISTER",
     "description": "",
-    "price": 4
+    "default_price": 4
   },
   {
     "title": "PERNOD",
     "description": "",
-    "price": 4
+    "default_price": 4
   },
   {
     "title": "PERNOD ABSINTH",
     "description": "",
-    "price": "7,5"
+    "default_price": "7,5"
   },
   {
     "title": "SAMBUCA",
     "description": "",
-    "price": 4
+    "default_price": 4
   },
   {
     "title": "SAMBUCA MOLINARI",
     "description": "",
-    "price": 4
+    "default_price": 4
   },
   {
     "title": "CHERRY HEERING",
     "description": "",
-    "price": 4
+    "default_price": 4
   },
   {
     "title": "COINTREAU",
     "description": "",
-    "price": 4
+    "default_price": 4
   },
   {
     "title": "CURACAO",
     "description": "",
-    "price": 4
+    "default_price": 4
   },
   {
     "title": "PEACH LIQUEUR",
     "description": "",
-    "price": 4
+    "default_price": 4
   },
   {
     "title": "CACAO LIQUEUR",
     "description": "",
-    "price": 4
+    "default_price": 4
   },
   {
     "title": "APRICOT LIQUEUR",
     "description": "",
-    "price": 4
+    "default_price": 4
   },
   {
     "title": "DRAMBUIE",
     "description": "",
-    "price": 4
+    "default_price": 4
   },
   {
     "title": "GALLIANO",
     "description": "",
-    "price": 4
+    "default_price": 4
   },
   {
     "title": "GALLIANO VANILLIA",
     "description": "",
-    "price": 4
+    "default_price": 4
   },
   {
     "title": "LIQUEUR MURES",
     "description": "",
-    "price": 4
+    "default_price": 4
   },
   {
     "title": "LIQUEUR CASSIS",
     "description": "",
-    "price": 4
+    "default_price": 4
   },
   {
     "title": "KAHLUA",
     "description": "",
-    "price": 4
+    "default_price": 4
   },
   {
     "title": "LIMONCELLO",
     "description": "",
-    "price": 4
+    "default_price": 4
   },
   {
     "title": "MARASCHINO",
     "description": "",
-    "price": 4
+    "default_price": 4
   },
   {
     "title": "ACQUA DI CEDRO",
     "description": "",
-    "price": 5
+    "default_price": 5
   },
   {
     "title": "NARDINI RABARBARO",
     "description": "",
-    "price": 5
+    "default_price": 5
   },
   {
     "title": "QUAGLIA CILIEGIA",
     "description": "",
-    "price": 5
+    "default_price": 5
   },
   {
     "title": "QUAGLIA CAMOMILLA",
     "description": "",
-    "price": 5
+    "default_price": 5
   },
   {
     "title": "QUAGLIA CHINOTTO",
     "description": "",
-    "price": 5
+    "default_price": 5
   },
   {
     "title": "MOJITO DI GIORGIA",
     "description": "Ron Havana Club 3 years, cranberry, red fruits syrup, mint,  lime",
-    "price": 9
+    "default_price": 9
   },
   {
     "title": "BIG SQUADRA",
     "description": "Vodka Absolut, lime cordial, ginger ale Schweppes Premium Mixer, fresh fruits & love",
-    "price": 9
+    "default_price": 9
   },
   {
     "title": "LET THAT MAN-GO MULE",
     "description": "Wild Turkey Bourbon Whiskey, mango, ginger beer Schweppes Premium Mixer, cardamome bitter, lime",
-    "price": 10
+    "default_price": 10
   },
   {
     "title": "MOSTO VERDE",
     "description": "",
-    "price": "7,5"
+    "default_price": "7,5"
   },
   {
     "title": "ARTI-SCHOCK NEGRONI",
     "description": "Cynar artichoke liqueur, Martini Riserva Rubino , Campari Bitter, soda water",
-    "price": 9
+    "default_price": 9
   },
   {
     "title": "IF YOU LIKE PINA COLADA",
     "description": "Ron Havana Club 3 years, pineapple, banana, white chocolate, coco cream, lime",
-    "price": 9
+    "default_price": 9
   },
   {
     "title": "WRAY&NEPHEW",
     "description": "",
-    "price": 6
+    "default_price": 6
   },
   {
     "title": "BACARDI BLACK",
     "description": "",
-    "price": 6
+    "default_price": 6
   },
   {
     "title": "EL DORADO 15 YEARS",
     "description": "",
-    "price": 10
+    "default_price": 10
   },
   {
     "title": "BACARDI OAKHEART",
     "description": "",
-    "price": 6
+    "default_price": 6
   },
   {
     "title": "BACARDI BLANCA",
     "description": "",
-    "price": 6
+    "default_price": 6
   },
   {
     "title": "RON ZACAPA",
     "description": "",
-    "price": 19
+    "default_price": 19
   },
   {
     "title": "HAVANA 7 YEARS",
     "description": "",
-    "price": 6
+    "default_price": 6
   },
   {
     "title": "HAVANA 3 YEARS",
     "description": "",
-    "price": 6
+    "default_price": 6
   },
   {
     "title": "HAVANA ANEJO ESPECIAL",
     "description": "",
-    "price": 6
+    "default_price": 6
   },
   {
     "title": "PLANTATION PINEAPPLE",
     "description": "",
-    "price": 6
+    "default_price": 6
   },
   {
     "title": "MACHU PISCO",
     "description": "Pisco 1615 Mosto Verde, apple liqueur, rhubarb, lemon, fee foam Fee Brothers",
-    "price": 8
+    "default_price": 8
   },
   {
     "title": "IT'S BRITNEY SPRITZ",
     "description": "Gin Beefeater, Prosecco, cucumber, pomegranate, cordial elderflowers",
-    "price": 8
+    "default_price": 8
   },
   {
     "title": "BERLINI SPRITZ",
     "description": "Prosecco, white peach puree, raspberry",
-    "price": 8
+    "default_price": 8
   },
   {
     "title": "MAMA MIMOSA",
     "description": "Prosecco Treviso Corvezzo, Italicus bergamotte liqueur, orange juice",
-    "price": 29
+    "default_price": 29
   },
   {
     "title": "MR LEMON",
     "description": "Lemon juice, strawberry, elderflowers syrup, soda water",
-    "price": 4
+    "default_price": 4
   },
   {
     "title": "KILLER COLADA",
     "description": "Pineapple, orange, coco cream, cinamon, lime",
-    "price": 6
+    "default_price": 6
   },
   {
     "title": "HEILIGE MARIA",
     "description": "Passion fruit, lime, mint syrup, ginger beer Schweppes Premium Mixer",
-    "price": 6
+    "default_price": 6
   },
   {
     "title": "BLOODIEST MARY",
     "description": "Vodka Absolut, tomato juice & spices",
-    "price": 8
+    "default_price": 8
   },
   {
     "title": "ABSOLUT",
     "description": "nothing?",
-    "price": 6
+    "default_price": 6
   },
   {
     "title": "PARTISAN ORGANIC",
     "description": "",
-    "price": 10
+    "default_price": 10
   },
   {
     "title": "BELVEDERE",
     "description": "",
-    "price": "7,5"
+    "default_price": "7,5"
   },
   {
     "title": "GREY GOOSE",
     "description": "",
-    "price": "7,5"
+    "default_price": "7,5"
   },
   {
     "title": "HIPPIE OLD FASHIONED",
     "description": "Wild Turkey Bourbon Whiskey, hanf syrup, coco water, Paychaud's bitter",
-    "price": 9
+    "default_price": 9
   },
   {
     "title": "WILD TURKEY",
     "description": "",
-    "price": 6
+    "default_price": 6
   },
   {
     "title": "JAMESON",
     "description": "",
-    "price": 6
+    "default_price": 6
   },
   {
     "title": "JOHNNIE WALKER BLACK LABEL",
     "description": "",
-    "price": 6
+    "default_price": 6
   },
   {
     "title": "WOODFORD RESERVE",
     "description": "",
-    "price": 10
+    "default_price": 10
   },
   {
     "title": "LAPHROAIG 10 YEARS",
     "description": "",
-    "price": "7,5"
+    "default_price": "7,5"
   },
   {
     "title": "ARDBEG 10 YEARS",
     "description": "",
-    "price": 10
+    "default_price": 10
   },
   {
     "title": "NIKKA COFFEY GRAIN",
     "description": "",
-    "price": 14
+    "default_price": 14
   },
   {
     "title": "SUNTORY HIBIKI",
     "description": "",
-    "price": 16
+    "default_price": 16
   },
   {
     "title": "BALVENIE 14 YEARS",
     "description": "",
-    "price": 14
+    "default_price": 14
   },
   {
     "title": "BOWMORE 18 YEARS",
     "description": "",
-    "price": 18
+    "default_price": 18
   },
   {
     "title": "BLANTOS GOLD",
     "description": "",
-    "price": 19
+    "default_price": 19
   },
   {
     "title": "JOHNNIE WALKER BLUE LABEL",
     "description": "",
-    "price": 35
+    "default_price": 35
   }
 ]

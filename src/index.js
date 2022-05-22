@@ -42,7 +42,7 @@ module.exports = {
     //   }
     // );
     removeDuplicatesFromArray(wines).map(
-      async ({ title, description, price }) => {
+      async ({ title, description, default_price }) => {
         await strapi.entityService.create("api::wine.wine", {
           data: {
             title,
