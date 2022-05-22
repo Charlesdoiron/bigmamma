@@ -41,16 +41,16 @@ module.exports = {
     //     });
     //   }
     // );
-    removeDuplicatesFromArray(wines).map(
-      async ({ title, description, default_price }) => {
-        await strapi.entityService.create("api::wine.wine", {
-          data: {
-            title,
-            description,
-            default_price: default_price.toString(),
-          },
-        });
-      }
-    );
+    // removeDuplicatesFromArray(wines).map(
+    //   async ({ title, description, default_price }) => {
+    //     await strapi.entityService.create("api::wine.wine", {
+    //       data: {
+    //         title,
+    //         description,
+    //         default_price: default_price.toString(),
+    //       },
+    //     });
+    //   }
+    // );
   },
 };
