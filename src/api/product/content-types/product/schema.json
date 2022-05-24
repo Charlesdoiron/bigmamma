@@ -36,12 +36,6 @@
       "required": false,
       "unique": false
     },
-    "allergens": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::allergen.allergen",
-      "mappedBy": "product"
-    },
     "type": {
       "pluginOptions": {
         "i18n": {
@@ -135,6 +129,12 @@
         }
       },
       "type": "string"
+    },
+    "allergens": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::allergen.allergen",
+      "inversedBy": "products"
     }
   }
 }
