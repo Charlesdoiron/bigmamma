@@ -25,6 +25,7 @@ module.exports = ({ env }) => ({
       maxLimit: 10000,
       apolloServer: {
         introspection: true,
+        tracing: true,
       },
     },
   },
