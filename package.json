@@ -8,7 +8,8 @@
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi",
-    "deploy": "git push heroku develop:main -f"
+    "deploy-staging": "git push heroku-staging main -f",
+    "deploy-production": "git push heroku-production main"
   },
   "devDependencies": {},
   "dependencies": {

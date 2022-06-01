@@ -4,7 +4,8 @@
   "info": {
     "singularName": "font",
     "pluralName": "fonts",
-    "displayName": "Font"
+    "displayName": "Font",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,6 +14,16 @@
   "attributes": {
     "title": {
       "type": "string"
+    },
+    "font_file": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
