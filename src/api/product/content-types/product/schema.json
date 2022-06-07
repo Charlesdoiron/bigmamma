@@ -135,6 +135,12 @@
       "relation": "manyToMany",
       "target": "api::allergen.allergen",
       "inversedBy": "products"
+    },
+    "performances": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::performance.performance",
+      "mappedBy": "products"
     }
   }
 }
