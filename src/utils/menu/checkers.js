@@ -47,6 +47,12 @@ async function getAvailableCategories(menu, queryURL) {
               attributes: {
                 title: category?.title,
                 description: category?.description,
+                image: category?.image?.url,
+                hide_products: category?.hide_products,
+                background_color: category?.background_color,
+                gif_placement: category?.gif_placement,
+                force_open: category?.force_open,
+                force_show: category?.force_show,
               },
             },
             products: category?.product
