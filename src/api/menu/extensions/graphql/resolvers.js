@@ -74,7 +74,7 @@ const queries = (strapi) => {
             );
           }
         }
-        console.dir(menu, { depth: null });
+        // console.dir(menu, { depth: null });
         return await getAvailableCategories(menu, queryURL);
       },
     },
