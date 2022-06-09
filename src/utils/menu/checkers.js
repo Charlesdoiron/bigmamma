@@ -49,7 +49,7 @@ async function getAvailableCategories(menu, queryURL) {
               s?.title?.toLowerCase()
             );
 
-            const isAvailable = servicesProduct.some((service) => {
+            const isAvailable = servicesProduct?.some((service) => {
               // liste des services du produit.
               const serviceData = servicesData[service];
 
@@ -58,13 +58,13 @@ async function getAvailableCategories(menu, queryURL) {
               }
               if (
                 queryURL &&
-                servicesProduct.some((title) => title === queryURL)
+                servicesProduct?.some((title) => title === queryURL)
               ) {
                 return true;
               }
               if (
                 queryURL &&
-                servicesProduct.every((title) => title !== queryURL)
+                servicesProduct?.every((title) => title !== queryURL)
               ) {
                 return false;
               }
@@ -72,7 +72,7 @@ async function getAvailableCategories(menu, queryURL) {
               // Heure du service
               if (serviceData) {
                 // check si le jour courant est dans un jour du service
-                const hasCurrentDay = serviceData.days[0].some((day) => {
+                const hasCurrentDay = serviceData.days[0]?.some((day) => {
                   return day === currentDay;
                 });
                 // check si now est entre le début du service ou la fin du service
