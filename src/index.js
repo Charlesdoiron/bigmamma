@@ -1,10 +1,18 @@
 "use strict";
-const wines = require("./data/wine.json");
-const products = require("./data/products.json");
-const categories = require("./data/categories.json");
+// const wines = require("./data/wine.json");
+// const products = require("./data/products.json");
+// const categories = require("./data/categories.json");
 
-const removeDuplicatesFromArray = (arr) =>
-  [...new Set(arr.map((el) => JSON.stringify(el)))].map((e) => JSON.parse(e));
+// const removeDuplicatesFromArray = (arr) =>
+//   [...new Set(arr.map((el) => JSON.stringify(el)))].map((e) => JSON.parse(e));
+
+// Extending menu
+const {
+  typeDefs: menuTypes,
+} = require("./api/menu/extensions/graphql/type-defs");
+const {
+  resolvers: menuResolvers,
+} = require("./api/menu/extensions/graphql/resolvers");
 
 module.exports = {
   /**
@@ -13,7 +21,34 @@ module.exports = {
    *
    * This gives you an opportunity to extend code.
    */
-  register(/*{ strapi }*/) {},
+  register({ strapi }) {
+    const extensionService = strapi.plugin("graphql").service("extension");
+    const typeDefs = `
+      ${menuTypes}
+    `;
+    const extension = ({ nexus }) => ({
+      // GQL SDL
+      typeDefs: typeDefs,
+
+      // GQL Resolvers
+      resolvers: {
+        Query: {
+          ...menuResolvers.queries(strapi),
+        },
+        Mutation: {
+          ...menuResolvers.mutations(strapi),
+        },
+      },
+      // GQL Config
+      resolversConfig: {
+        "Query.getAvailableCategories": {
+          auth: false,
+        },
+      },
+    });
+
+    extensionService.use(extension);
+  },
 
   /**
    * An asynchronous bootstrap function that runs before

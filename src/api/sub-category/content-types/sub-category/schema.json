@@ -24,7 +24,7 @@
         }
       }
     },
-    "Description": {
+    "description": {
       "type": "string",
       "pluginOptions": {
         "i18n": {

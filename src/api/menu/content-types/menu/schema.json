@@ -83,7 +83,7 @@
       },
       "type": "text"
     },
-    "Services": {
+    "services": {
       "type": "component",
       "repeatable": true,
       "pluginOptions": {
