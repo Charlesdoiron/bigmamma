@@ -143,6 +143,29 @@ async function getAvailableCategories(menu, queryURL) {
   return JSON.stringify(getAvailableCategories());
 }
 
+async function getAllProductsByMenu(menu, queryURL) {
+  if (!menu) {
+    return "[]";
+  }
+  const res = {
+    title: menu[0].title,
+    products: menu[0]?.category
+      ?.map((c) =>
+        c?.product?.map((p) => {
+          return {
+            id: p.id,
+            is_unavailable: p.is_unavailable,
+            title: p.product?.title,
+            description: p.product?.description,
+          };
+        })
+      )
+      .flat(),
+  };
+  return res;
+}
+
 module.exports = {
   getAvailableCategories,
+  getAllProductsByMenu,
 };

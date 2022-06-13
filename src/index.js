@@ -44,6 +44,9 @@ module.exports = {
         "Query.getAvailableCategories": {
           auth: false,
         },
+        "Query.getAllProductsByMenu": {
+          auth: false,
+        },
       },
     });
 
