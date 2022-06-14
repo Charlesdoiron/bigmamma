@@ -1,5 +1,6 @@
 const { getAvailableCategories } = require("../../../../utils/menu/checkers");
-
+const { getAllProductsByMenu } = require("../../../../utils/menu/checkers");
+const bcrypt = require("bcryptjs");
 // ---- QUERIES
 
 const queries = (strapi) => {
@@ -20,6 +21,15 @@ const queries = (strapi) => {
     "services",
     "services.service",
     "services.days",
+  ];
+  const PRODUCTS = [
+    "localizations",
+    "localizations.category",
+    "localizations.category.product",
+    "category",
+    "category.product.localizations",
+    "category.product.product",
+    "category.product.product.localizations",
   ];
   return {
     getAvailableCategories: {
@@ -76,6 +86,31 @@ const queries = (strapi) => {
         }
         // console.dir(menu, { depth: null });
         return await getAvailableCategories(menu, queryURL);
+      },
+    },
+    getAllProductsByMenu: {
+      async resolve(obj, param, context) {
+        const password = param.password?.toLowerCase();
+        const menu = await strapi.entityService.findMany("api::menu.menu", {
+          filters: {
+            slug: {
+              $eq: param.slug,
+            },
+          },
+          populate: PRODUCTS,
+        });
+        if (!menu[0]) {
+          throw new Error("Menu not found");
+        }
+        const validatePassword = async (password, hash) =>
+          await bcrypt.compare(password, hash);
+
+        const isValid = await validatePassword(password, menu[0].password);
+
+        if (isValid) {
+          return getAllProductsByMenu(menu);
+        }
+        throw new Error("Wrong password");
       },
     },
   };

@@ -1,12 +1,22 @@
 // GraphQL SDL to extend Strapi GQL plugin
 // TODO: ADD type here
+
 const typeDefs = `
-
-
-
-
+type Products {
+    description:String
+    title:String
+    id:ID
+    is_unavailable:Boolean
+  }
+type AllProductsRes {
+  title:String
+  products : [Products]
+}
   extend type Query {
     getAvailableCategories(slug: String!,queryURL:String,locale:I18NLocaleCode): String
+  }
+  extend type Query {
+    getAllProductsByMenu(slug: String!,password:String!): AllProductsRes 
   }
 `;
 
