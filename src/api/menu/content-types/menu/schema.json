@@ -659,6 +659,16 @@
         }
       },
       "type": "string"
+    },
+    "password": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "password",
+      "required": true,
+      "minLength": 2
     }
   }
 }

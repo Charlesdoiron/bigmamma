@@ -1,6 +1,6 @@
 const { getAvailableCategories } = require("../../../../utils/menu/checkers");
 const { getAllProductsByMenu } = require("../../../../utils/menu/checkers");
-
+const bcrypt = require("bcryptjs");
 // ---- QUERIES
 
 const queries = (strapi) => {
@@ -99,12 +99,18 @@ const queries = (strapi) => {
           },
           populate: PRODUCTS,
         });
+        if (!menu[0]) {
+          throw new Error("Menu not found");
+        }
+        const validatePassword = async (password, hash) =>
+          await bcrypt.compare(password, hash);
 
-        // if (param.password === menu[0].password) {
-        if (param.password === "pass") {
+        const isValid = await validatePassword(password, menu[0].password);
+
+        if (isValid) {
           return getAllProductsByMenu(menu);
         }
-        return "Wrong password";
+        throw new Error("Wrong password");
       },
     },
   };
