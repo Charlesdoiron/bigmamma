@@ -5,8 +5,10 @@ const typeDefs = `
 type Products {
     description:String
     title:String
-    id:ID
     is_unavailable:Boolean
+    product_id:ID
+    category_id:ID
+    relational_product_id:ID
   }
 type AllProductsRes {
   title:String
@@ -17,6 +19,9 @@ type AllProductsRes {
   }
   extend type Query {
     getAllProductsByMenu(slug: String!,password:String!): AllProductsRes 
+  }
+   extend type Mutation {
+    updateProductAvailablity(product_id:ID!,relational_product_id:ID!,category_id:ID!) :Products
   }
 `;
 

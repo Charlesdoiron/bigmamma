@@ -153,7 +153,9 @@ async function getAllProductsByMenu(menu, queryURL) {
       ?.map((c) =>
         c?.product?.map((p) => {
           return {
-            id: p.id,
+            category_id: c.id,
+            relational_product_id: p.id,
+            product_id: p.product?.id,
             is_unavailable: p.is_unavailable,
             title: p.product?.title,
             description: p.product?.description,
