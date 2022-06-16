@@ -64,6 +64,8 @@ async function getAvailableCategories(menu, queryURL) {
                     s?.title?.toLowerCase()
                   );
 
+                  const isAllServices =
+                    p.all_services && p.services.length === 0;
                   const isAvailable = servicesProduct?.some((service) => {
                     // liste des services du produit.
                     const serviceData = servicesData[service];
@@ -102,7 +104,7 @@ async function getAvailableCategories(menu, queryURL) {
                     }
                   });
 
-                  if (isAvailable) {
+                  if (isAvailable || isAllServices) {
                     return {
                       sub_category: {
                         id: sub_category?.id,

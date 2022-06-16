@@ -83,7 +83,6 @@ const queries = (strapi) => {
             );
           }
         }
-        // console.dir(menu, { depth: null });
         return await getAvailableCategories(menu, queryURL);
       },
     },
@@ -154,8 +153,6 @@ const mutations = (strapi) => {
             oldCategories.push(categorie);
           }
         });
-
-        console.dir(oldCategories, { depth: null });
 
         // // Get the old oldAvailability of the current product
         const oldAvailability = oldProducts?.find(
