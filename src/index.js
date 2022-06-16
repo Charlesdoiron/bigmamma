@@ -47,6 +47,9 @@ module.exports = {
         "Query.getAllProductsByMenu": {
           auth: false,
         },
+        "Mutation.updateProductAvailablity": {
+          auth: false,
+        },
       },
     });
 
