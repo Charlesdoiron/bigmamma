@@ -149,7 +149,7 @@ async function getAvailableCategories(menu, queryURL) {
   return JSON.stringify(getAvailableCategories());
 }
 
-async function getAllProductsByMenu(menu, queryURL) {
+async function getAllProductsByMenu(menu) {
   if (!menu) {
     return "[]";
   }
