@@ -37,52 +37,18 @@ const queries = (strapi) => {
         const locale = param.locale;
         let menu;
 
-        if (locale === "en") {
-          // Find the menu (default language is en)
-          menu = await strapi.entityService.findMany("api::menu.menu", {
-            filters: {
-              slug: {
-                $eq: param.slug,
-              },
+        // Find the menu (default language is en)
+        menu = await strapi.entityService.findMany("api::menu.menu", {
+          filters: {
+            slug: {
+              $eq: param.slug,
             },
-            populate: FIELDS,
-          });
-          menu = menu[0];
-        } else {
-          // Find all the existing locale
+          },
+          populate: FIELDS,
+          locale,
+        });
+        menu = menu[0];
 
-          const allLocales = await strapi.entityService.findMany(
-            "api::menu.menu",
-            {
-              filters: {
-                slug: {
-                  $eq: param.slug,
-                },
-              },
-              populate: {
-                localizations: true,
-              },
-            }
-          );
-          const getIdFromLocale = async (locale) => {
-            return await allLocales[0].localizations.find(
-              (l) => l.locale === locale
-            )?.id;
-          };
-
-          const currentId = await getIdFromLocale(locale);
-          // If locale exist get the menu
-
-          if (currentId) {
-            menu = await strapi.entityService.findOne(
-              "api::menu.menu",
-              await getIdFromLocale(locale),
-              {
-                populate: FIELDS,
-              }
-            );
-          }
-        }
         return await getAvailableCategories(menu, queryURL);
       },
     },
@@ -95,6 +61,7 @@ const queries = (strapi) => {
               $eq: param.slug,
             },
           },
+
           populate: PRODUCTS,
         });
         if (!menu[0]) {
@@ -133,6 +100,7 @@ const mutations = (strapi) => {
               $eq: "giorgiatrattoria",
             },
           },
+
           populate: FIELDS,
         });
         // Find all the products in categorie
@@ -197,21 +165,49 @@ module.exports = {
   resolvers,
 };
 
-// data: {
-//       category: [
-//         {
-
-//           __component: "categories.category",
-//           id: RELATIONAL_PROD_ID,
-//           product: [
-//             //Remove the product to change
-//             // ...oldProducts?.filter((p) => p.id !== RELATIONAL_PROD_ID),
-//             // {
-//             //   id: RELATIONAL_PROD_ID,
-//             //   __component: "products.product",
-//             //   is_unavailable: !oldAvailability,
-//             // },
-//           ],
-//         },
-//       ],
+// Will remove comment later
+// if (locale === "en") {
+//   // Find the menu (default language is en)
+//   menu = await strapi.entityService.findMany("api::menu.menu", {
+//     filters: {
+//       slug: {
+//         $eq: param.slug,
+//       },
 //     },
+//     populate: FIELDS,
+//   });
+//   menu = menu[0];
+// } else {
+//   // Find all the existing locale
+//   const allLocales = await strapi.entityService.findMany(
+//     "api::menu.menu",
+//     {
+//       filters: {
+//         slug: {
+//           $eq: param.slug,
+//         },
+//       },
+//       populate: {
+//         localizations: true,
+//       },
+//     }
+//   );
+//   const getIdFromLocale = async (locale) => {
+//     return await allLocales[0].localizations.find(
+//       (l) => l.locale === locale
+//     )?.id;
+//   };
+
+//   const currentId = await getIdFromLocale(locale);
+//   // If locale exist get the menu
+
+//   if (currentId) {
+//     menu = await strapi.entityService.findOne(
+//       "api::menu.menu",
+//       await getIdFromLocale(locale),
+//       {
+//         populate: FIELDS,
+//       }
+//     );
+//   }
+// }

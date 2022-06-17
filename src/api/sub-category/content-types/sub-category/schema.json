@@ -40,6 +40,14 @@
       },
       "type": "boolean",
       "default": false
+    },
+    "title_front": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }

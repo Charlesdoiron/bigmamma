@@ -109,7 +109,9 @@ async function getAvailableCategories(menu, queryURL) {
                       sub_category: {
                         id: sub_category?.id,
                         attributes: {
-                          title: sub_category?.title,
+                          title: sub_category?.title_front
+                            ? sub_category?.title_front
+                            : sub_category?.title,
                           description: sub_category?.description,
                           is_accordion: sub_category?.is_accordion,
                         },
@@ -121,7 +123,9 @@ async function getAvailableCategories(menu, queryURL) {
                           kcal: p.product?.kcal,
                           show_image: p.product?.show_image,
                           image: p.product?.image?.url,
-                          title: p.product?.title,
+                          title: p.product?.title_front
+                            ? p.product?.title_front
+                            : p.product?.title,
                           description: p.product?.description,
                           price: p.price ? p.price : p.product?.default_price,
                           type: p.type,
@@ -159,7 +163,9 @@ async function getAllProductsByMenu(menu, queryURL) {
             relational_product_id: p.id,
             product_id: p.product?.id,
             is_unavailable: p.is_unavailable,
-            title: p.product?.title,
+            title: p.product?.title_front
+              ? p.product?.title_front
+              : p.product?.title,
             description: p.product?.description,
           };
         })
