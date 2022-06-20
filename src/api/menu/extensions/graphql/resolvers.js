@@ -35,12 +35,16 @@ const queries = (strapi) => {
         const locale = param.locale;
         let menu;
 
-        // Find the menu (default language is en)
         menu = await strapi.entityService.findMany("api::menu.menu", {
           filters: {
-            slug: {
-              $eq: param.slug,
-            },
+            $and: [
+              {
+                slug: {
+                  $eq: param.slug,
+                },
+                locale: { $eq: locale },
+              },
+            ],
           },
           populate: FIELDS,
           locale,
