@@ -39,15 +39,22 @@
     "type": {
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       },
       "type": "enumeration",
       "enum": [
         "V",
-        "V2",
+        "V-star",
         "VEG",
-        "GL"
+        "GL",
+        "GF",
+        "V, GL",
+        "V-star, GL",
+        "VEG, GL",
+        "V, GF",
+        "V-star, GF",
+        "VEG, GF"
       ]
     },
     "kcal": {

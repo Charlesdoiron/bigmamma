@@ -128,7 +128,7 @@ async function getAvailableCategories(menu, queryURL) {
                             : p.product?.title,
                           description: p.product?.description,
                           price: p.price ? p.price : p.product?.default_price,
-                          type: p.type,
+                          type: p.product?.type,
                           gif: p.product?.gif?.url,
                           video: p.product?.video?.url,
                           allergens: p.product?.allergens?.map((a) => a?.title),
