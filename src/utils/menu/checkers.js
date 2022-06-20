@@ -116,6 +116,14 @@ async function getAvailableCategories(menu, queryURL, locale) {
                       } else return entity?.description;
                     };
 
+                    const getAllergens = (entity, locale) => {
+                      const allergens_locale = `allergens_${locale}`;
+
+                      if (entity?.[allergens_locale]) {
+                        return entity?.[allergens_locale];
+                      } else return entity?.allergens_en;
+                    };
+
                     return {
                       sub_category: {
                         id: sub_category?.id,
@@ -142,7 +150,7 @@ async function getAvailableCategories(menu, queryURL, locale) {
                           type: p.product?.type,
                           gif: p.product?.gif?.url,
                           video: p.product?.video?.url,
-                          allergens: p.product?.allergens?.map((a) => a?.title),
+                          allergens: getAllergens(p.product, locale),
                         },
                       },
                     };

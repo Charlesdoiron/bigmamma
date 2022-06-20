@@ -63,7 +63,6 @@ const queries = (strapi) => {
               $eq: param.slug,
             },
           },
-
           populate: PRODUCTS,
         });
 
