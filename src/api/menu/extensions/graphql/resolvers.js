@@ -21,12 +21,11 @@ const FIELDS = [
   "services.days",
 ];
 const PRODUCTS = [
-  "localizations",
-  "localizations.category",
-  "localizations.category.product",
-  "localizations.category.product.product",
   "category",
+  "category.localizations",
+  "category.product.localizations",
   "category.product.product",
+  "category.product.product.localizations",
 ];
 const queries = (strapi) => {
   return {
@@ -63,6 +62,7 @@ const queries = (strapi) => {
 
           populate: PRODUCTS,
         });
+
         if (!menu[0]) {
           throw new Error("Menu not found");
         }
@@ -96,9 +96,10 @@ const mutations = (strapi) => {
               $eq: "giorgiatrattoria",
             },
           },
-          populate: FIELDS,
+          populate: PRODUCTS,
         });
 
+        console.dir(menu, { depth: null });
         const categories = menu[0].category;
         const MENU_ID = menu[0].id;
 
