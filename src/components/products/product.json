@@ -32,11 +32,6 @@
       "type": "boolean",
       "default": false
     },
-    "wine": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::wine.wine"
-    },
     "all_services": {
       "type": "boolean",
       "default": true,
