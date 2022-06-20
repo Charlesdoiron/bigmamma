@@ -59,9 +59,14 @@ const queries = (strapi) => {
         const password = param.password?.toLowerCase();
         const menu = await strapi.entityService.findMany("api::menu.menu", {
           filters: {
-            slug: {
-              $eq: param.slug,
-            },
+            $and: [
+              {
+                slug: {
+                  $eq: param.slug,
+                },
+                locale: { $eq: "en" },
+              },
+            ],
           },
           populate: PRODUCTS,
         });
@@ -92,12 +97,18 @@ const mutations = (strapi) => {
     updateProductAvailablity: {
       async resolve(obj, param, context) {
         const RELATIONAL_PROD_ID = parseInt(param.relational_product_id);
+        const DEFAULT_LOCALE = "en";
 
         let menu = await strapi.entityService.findMany("api::menu.menu", {
           filters: {
-            slug: {
-              $eq: "giorgiatrattoria",
-            },
+            $and: [
+              {
+                slug: {
+                  $eq: param.slug,
+                },
+                locale: { $eq: DEFAULT_LOCALE },
+              },
+            ],
           },
           populate: PRODUCTS,
         });

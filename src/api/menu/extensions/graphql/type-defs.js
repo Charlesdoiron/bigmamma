@@ -21,7 +21,7 @@ type AllProductsRes {
     getAllProductsByMenu(slug: String!,password:String!): AllProductsRes 
   }
    extend type Mutation {
-    updateProductAvailablity(product_id:ID!,relational_product_id:ID!,category_id:ID!) :Products
+    updateProductAvailablity(product_id:ID!,relational_product_id:ID!,category_id:ID!,slug:ID!) :Products
   }
 `;
 
