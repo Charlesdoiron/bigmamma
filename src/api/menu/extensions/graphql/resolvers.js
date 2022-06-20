@@ -47,7 +47,7 @@ const queries = (strapi) => {
         });
         menu = menu[0];
 
-        return await getAvailableCategories(menu, queryURL);
+        return await getAvailableCategories(menu, queryURL, locale);
       },
     },
     getAllProductsByMenu: {

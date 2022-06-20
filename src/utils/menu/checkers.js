@@ -9,7 +9,7 @@ dayjs.extend(isBetween);
 dayjs.extend(utc);
 dayjs.extend(TZ);
 const currentDay = dayjs().get("d");
-async function getAvailableCategories(menu, queryURL) {
+async function getAvailableCategories(menu, queryURL, locale) {
   if (!menu) {
     return "[]";
   }
@@ -105,6 +105,17 @@ async function getAvailableCategories(menu, queryURL) {
                   });
 
                   if (isAvailable || isAllServices) {
+                    const getDescription = (entity, locale) => {
+                      const description_locale = `description_${locale}`;
+
+                      if (locale === "en") {
+                        return entity?.description;
+                      }
+                      if (entity?.[description_locale]) {
+                        return entity?.[description_locale];
+                      } else return entity?.description;
+                    };
+
                     return {
                       sub_category: {
                         id: sub_category?.id,
@@ -112,7 +123,7 @@ async function getAvailableCategories(menu, queryURL) {
                           title: sub_category?.title_front
                             ? sub_category?.title_front
                             : sub_category?.title,
-                          description: sub_category?.description,
+                          description: getDescription(sub_category, locale),
                           is_accordion: sub_category?.is_accordion,
                         },
                       },
@@ -126,7 +137,7 @@ async function getAvailableCategories(menu, queryURL) {
                           title: p.product?.title_front
                             ? p.product?.title_front
                             : p.product?.title,
-                          description: p.product?.description,
+                          description: getDescription(p.product, locale),
                           price: p.price ? p.price : p.product?.default_price,
                           type: p.product?.type,
                           gif: p.product?.gif?.url,
@@ -146,6 +157,7 @@ async function getAvailableCategories(menu, queryURL) {
         .filter((el) => Object.values(el["products"]).length > 0)
     );
   };
+
   return JSON.stringify(getAvailableCategories());
 }
 
