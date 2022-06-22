@@ -24,27 +24,6 @@
       "required": false,
       "unique": false
     },
-    "type": {
-      "pluginOptions": {},
-      "type": "enumeration",
-      "enum": [
-        "V",
-        "V-star",
-        "VEG",
-        "GL",
-        "GF",
-        "V, GL",
-        "V-star, GL",
-        "VEG, GL",
-        "V, GF",
-        "V-star, GF",
-        "VEG, GF"
-      ]
-    },
-    "kcal": {
-      "pluginOptions": {},
-      "type": "decimal"
-    },
     "image": {
       "type": "media",
       "multiple": false,
@@ -124,6 +103,15 @@
     },
     "allergens_al": {
       "pluginOptions": {},
+      "type": "string"
+    },
+    "sku": {
+      "type": "string"
+    },
+    "kcal": {
+      "type": "string"
+    },
+    "type": {
       "type": "string"
     }
   }
