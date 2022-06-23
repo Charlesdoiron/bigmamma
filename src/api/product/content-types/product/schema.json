@@ -36,7 +36,7 @@
     "show_image": {
       "pluginOptions": {},
       "type": "boolean",
-      "default": true
+      "default": false
     },
     "tags": {
       "type": "relation",
@@ -48,7 +48,7 @@
       "pluginOptions": {},
       "type": "boolean",
       "default": false,
-      "required": true
+      "required": false
     },
     "gif": {
       "type": "media",
