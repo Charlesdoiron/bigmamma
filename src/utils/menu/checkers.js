@@ -106,7 +106,8 @@ async function getAvailableCategories(menu, queryURL, locale) {
 
                   if (isAvailable || isAllServices) {
                     const getDescription = (entity, locale) => {
-                      const description_locale = `description_${locale}`;
+                      const sanitezedLocale = locale === "de" ? "al" : locale;
+                      const description_locale = `description_${sanitezedLocale}`;
 
                       if (locale === "en") {
                         return entity?.description;
@@ -117,7 +118,8 @@ async function getAvailableCategories(menu, queryURL, locale) {
                     };
 
                     const getAllergens = (entity, locale) => {
-                      const allergens_locale = `allergens_${locale}`;
+                      const sanitezedLocale = locale === "de" ? "al" : locale;
+                      const allergens_locale = `allergens_${sanitezedLocale}`;
 
                       if (entity?.[allergens_locale]) {
                         return entity?.[allergens_locale];
