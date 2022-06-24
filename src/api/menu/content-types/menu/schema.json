@@ -579,7 +579,7 @@
       "enum": [
         "fr",
         "es",
-        "al",
+        "de",
         "en"
       ],
       "default": "en",
