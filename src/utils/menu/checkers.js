@@ -88,7 +88,6 @@ async function getAvailableCategories(menu, queryURL, locale) {
 
                     // Heure du service
                     if (serviceData) {
-                      console.dir(serviceData, { depth: null });
                       // check si le jour courant est dans un jour du service
                       const hasCurrentDay = serviceData.days[0]?.some((day) => {
                         return day === currentDay;
@@ -165,7 +164,11 @@ async function getAvailableCategories(menu, queryURL, locale) {
           };
         })
         // Remove empty categories
-        .filter((el) => Object.values(el["products"]).length > 0)
+        .filter(
+          (el) =>
+            Object.values(el["products"]).length > 0 ||
+            el?.category?.attributes?.force_show
+        )
     );
   };
 
