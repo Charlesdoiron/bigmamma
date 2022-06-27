@@ -9,7 +9,7 @@ dayjs.extend(isBetween);
 dayjs.extend(utc);
 dayjs.extend(TZ);
 const currentDay = dayjs().get("d");
-async function getAvailableCategories(menu, queryURL) {
+async function getAvailableCategories(menu, queryURL, locale) {
   if (!menu) {
     return "[]";
   }
@@ -88,6 +88,7 @@ async function getAvailableCategories(menu, queryURL) {
 
                     // Heure du service
                     if (serviceData) {
+                      console.dir(serviceData, { depth: null });
                       // check si le jour courant est dans un jour du service
                       const hasCurrentDay = serviceData.days[0]?.some((day) => {
                         return day === currentDay;
@@ -105,6 +106,27 @@ async function getAvailableCategories(menu, queryURL) {
                   });
 
                   if (isAvailable || isAllServices) {
+                    const getDescription = (entity, locale) => {
+                      const sanitezedLocale = locale === "de" ? "al" : locale;
+                      const description_locale = `description_${sanitezedLocale}`;
+
+                      if (locale === "en") {
+                        return entity?.description;
+                      }
+                      if (entity?.[description_locale]) {
+                        return entity?.[description_locale];
+                      } else return entity?.description;
+                    };
+
+                    const getAllergens = (entity, locale) => {
+                      const sanitezedLocale = locale === "de" ? "al" : locale;
+                      const allergens_locale = `allergens_${sanitezedLocale}`;
+
+                      if (entity?.[allergens_locale]) {
+                        return entity?.[allergens_locale];
+                      } else return entity?.allergens_en;
+                    };
+
                     return {
                       sub_category: {
                         id: sub_category?.id,
@@ -112,7 +134,7 @@ async function getAvailableCategories(menu, queryURL) {
                           title: sub_category?.title_front
                             ? sub_category?.title_front
                             : sub_category?.title,
-                          description: sub_category?.description,
+                          description: getDescription(sub_category, locale),
                           is_accordion: sub_category?.is_accordion,
                         },
                       },
@@ -126,12 +148,12 @@ async function getAvailableCategories(menu, queryURL) {
                           title: p.product?.title_front
                             ? p.product?.title_front
                             : p.product?.title,
-                          description: p.product?.description,
+                          description: getDescription(p.product, locale),
                           price: p.price ? p.price : p.product?.default_price,
                           type: p.product?.type,
                           gif: p.product?.gif?.url,
                           video: p.product?.video?.url,
-                          allergens: p.product?.allergens?.map((a) => a?.title),
+                          allergens: getAllergens(p.product, locale),
                         },
                       },
                     };
@@ -146,6 +168,7 @@ async function getAvailableCategories(menu, queryURL) {
         .filter((el) => Object.values(el["products"]).length > 0)
     );
   };
+
   return JSON.stringify(getAvailableCategories());
 }
 

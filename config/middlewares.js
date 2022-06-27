@@ -9,6 +9,7 @@ module.exports = [
           "connect-src": ["'self'", "https:"],
           "img-src": ["'self'", "data:", "blob:", "*.amazonaws.com"],
           "media-src": ["'self'", "data:", "blob:"],
+          "script-src": ["'self'", "cdn.jsdelivr.net", "blob:"],
           upgradeInsecureRequests: null,
         },
       },

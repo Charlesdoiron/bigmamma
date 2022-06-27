@@ -10,60 +10,19 @@
   "options": {
     "draftAndPublish": false
   },
-  "pluginOptions": {
-    "i18n": {
-      "localized": true
-    }
-  },
+  "pluginOptions": {},
   "attributes": {
     "title": {
       "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
+      "pluginOptions": {},
       "unique": false,
       "required": true
     },
     "description": {
       "type": "text",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
+      "pluginOptions": {},
       "required": false,
       "unique": false
-    },
-    "type": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "type": "enumeration",
-      "enum": [
-        "V",
-        "V-star",
-        "VEG",
-        "GL",
-        "GF",
-        "V, GL",
-        "V-star, GL",
-        "VEG, GL",
-        "V, GF",
-        "V-star, GF",
-        "VEG, GF"
-      ]
-    },
-    "kcal": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "decimal"
     },
     "image": {
       "type": "media",
@@ -72,20 +31,12 @@
       "allowedTypes": [
         "images"
       ],
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "pluginOptions": {}
     },
     "show_image": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
+      "pluginOptions": {},
       "type": "boolean",
-      "default": true
+      "default": false
     },
     "tags": {
       "type": "relation",
@@ -94,14 +45,10 @@
       "mappedBy": "product"
     },
     "is_video_product": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
+      "pluginOptions": {},
       "type": "boolean",
       "default": false,
-      "required": true
+      "required": false
     },
     "gif": {
       "type": "media",
@@ -110,11 +57,7 @@
       "allowedTypes": [
         "images"
       ],
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "pluginOptions": {}
     },
     "video": {
       "type": "media",
@@ -123,41 +66,53 @@
       "allowedTypes": [
         "videos"
       ],
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "pluginOptions": {}
     },
     "default_price": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
+      "pluginOptions": {},
       "type": "string"
     },
-    "allergens": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::allergen.allergen",
-      "inversedBy": "products"
-    },
-    "performances": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::performance.performance",
-      "mappedBy": "products"
-    },
     "title_front": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
+      "pluginOptions": {},
       "type": "string",
-      "private": true,
-      "required": true
+      "required": false
+    },
+    "description_fr": {
+      "pluginOptions": {},
+      "type": "text"
+    },
+    "description_al": {
+      "pluginOptions": {},
+      "type": "text"
+    },
+    "description_es": {
+      "pluginOptions": {},
+      "type": "text"
+    },
+    "allergens_en": {
+      "pluginOptions": {},
+      "type": "string"
+    },
+    "allergens_fr": {
+      "pluginOptions": {},
+      "type": "string"
+    },
+    "allergens_es": {
+      "pluginOptions": {},
+      "type": "string"
+    },
+    "allergens_al": {
+      "pluginOptions": {},
+      "type": "string"
+    },
+    "sku": {
+      "type": "string"
+    },
+    "kcal": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
     }
   }
 }
