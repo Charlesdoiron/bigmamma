@@ -1,0 +1,134 @@
+[
+  {
+    "title": "Giorgia - IMPORT",
+    "restaurant": "Giorgia Trattoria",
+    "slug": "giorgiatrattoria",
+    "wifi_code": "",
+    "background_color": "",
+    "footer_allergens": "Please ask our staff for more information about allergens and intolerances. The complete list is available on request from our team.",
+    "footer_team": "CHEF: MICHELANGELO PRIMOCONFORTI / DIRETTORE: ADRIANO PERSEGANI",
+    "timezone": "Europe/Paris",
+    "footer_thanks_message": "WOWWWW YOU GOT THIS FAR??",
+    "our_surprise_link": "https://pizman.bigsquadra.com/",
+    "description": null,
+    "createdAt": "2022-05-17T08:03:19.367Z",
+    "updatedAt": "2022-06-27T07:51:07.647Z",
+    "publishedAt": "2022-05-17T08:03:41.563Z",
+    "locale": "en",
+    "font_color": "#cd1172",
+    "empty_category_message": "OOPS NOTHING IS COMING UP FOR THAT SELECTION",
+    "show_calories_button": false,
+    "quality_content": null,
+    "footer_title": "Baci, La Big Squadra",
+    "password": "$2a$10$wkbc8tHCHjrTjOgZsOSqxON7Q3Hk4KWVa4quBlNS3jzfBCc1Wefki",
+    "category": [
+      {
+        "__component": "categories.category",
+        "id": 7845654,
+        "hide_products": false,
+        "background_color": null,
+        "gif_placement": null,
+        "description": "",
+        "force_open": false,
+        "title": "BUONI PRODOTTI, ANTIPASTI",
+        "force_show": false,
+        "products": [
+          {
+            "__component": "products.product",
+            "id": 78456584,
+            "title": "test"
+          }
+        ]
+      }
+    ],
+    "services": [
+      {
+        "id": 109,
+        "startHours": 7,
+        "startMinutes": null,
+        "endHours": 16,
+        "endMinutes": null
+      },
+      {
+        "id": 107,
+        "startHours": 16,
+        "startMinutes": null,
+        "endHours": 2,
+        "endMinutes": null
+      },
+      {
+        "id": 110,
+        "startHours": 7,
+        "startMinutes": null,
+        "endHours": 11,
+        "endMinutes": 30
+      },
+      {
+        "id": 108,
+        "startHours": 11,
+        "startMinutes": 30,
+        "endHours": 2,
+        "endMinutes": null
+      }
+    ],
+    "our_surprise": {
+      "id": 157,
+      "name": "doggo_surprise_eng.gif",
+      "alternativeText": "doggo_surprise_eng.gif",
+      "caption": "doggo_surprise_eng.gif",
+      "width": null,
+      "height": null,
+      "formats": null,
+      "hash": "doggo_surprise_eng_e64811b206",
+      "ext": ".gif",
+      "mime": "image/gif",
+      "size": 190.7,
+      "url": "https://bucketeer-7223fd74-5e49-4cd4-8ed8-0e59071db8c6.s3.eu-west-1.amazonaws.com/doggo_surprise_eng_e64811b206.gif",
+      "previewUrl": null,
+      "provider": "aws-s3",
+      "provider_metadata": null,
+      "createdAt": "2022-06-24T06:34:15.164Z",
+      "updatedAt": "2022-06-24T06:34:15.164Z"
+    },
+    "title_font": null,
+    "body_font": null,
+    "days": [],
+    "cover": {
+      "id": 156,
+      "name": "Header Munich ENG.svg",
+      "alternativeText": "Header Munich ENG.svg",
+      "caption": "Header Munich ENG.svg",
+      "width": null,
+      "height": null,
+      "formats": null,
+      "hash": "Header_Munich_ENG_27ed939ba6",
+      "ext": ".svg",
+      "mime": "image/svg+xml",
+      "size": 37.19,
+      "url": "https://bucketeer-7223fd74-5e49-4cd4-8ed8-0e59071db8c6.s3.eu-west-1.amazonaws.com/Header_Munich_ENG_27ed939ba6.svg",
+      "previewUrl": null,
+      "provider": "aws-s3",
+      "provider_metadata": null,
+      "createdAt": "2022-06-24T06:33:44.732Z",
+      "updatedAt": "2022-06-24T06:33:44.732Z"
+    },
+    "font": null,
+    "quality_or_nothing": null,
+    "createdBy": null,
+    "updatedBy": {
+      "id": 3,
+      "firstname": "Inès",
+      "lastname": "Batard",
+      "username": null,
+      "email": "ines.batard@bigmamma.com",
+      "password": "$2a$10$8SDDfP8pPihAb7tYLU7QPOLNVercUGN69Pmrs0jxkbrUGx7zFpOBa",
+      "resetPasswordToken": null,
+      "registrationToken": null,
+      "isActive": true,
+      "blocked": false,
+      "preferedLanguage": null,
+      "createdAt": "2022-04-13T13:01:21.416Z",
+      "updatedAt": "2022-06-28T05:06:30.487Z"
+    }
+  }
+]
