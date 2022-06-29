@@ -1,9 +1,10 @@
 [
   {
-    "title": "Giorgia - IMPORT",
+    "id": 12,
+    "title": "Giorgia - EN",
     "restaurant": "Giorgia Trattoria",
     "slug": "giorgiatrattoria",
-    "wifi_code": "test",
+    "wifi_code": "",
     "background_color": "",
     "footer_allergens": "Please ask our staff for more information about allergens and intolerances. The complete list is available on request from our team.",
     "footer_team": "CHEF: MICHELANGELO PRIMOCONFORTI / DIRETTORE: ADRIANO PERSEGANI",
@@ -24,21 +25,135 @@
     "category": [
       {
         "__component": "categories.category",
-        "id": 7845654,
+        "id": 39,
         "hide_products": false,
         "background_color": null,
         "gif_placement": null,
         "description": "",
         "force_open": false,
         "title": "BUONI PRODOTTI, ANTIPASTI",
-        "force_show": false,
-        "products": [
-          {
-            "__component": "products.product",
-            "id": 78456584,
-            "title": "test"
-          }
-        ]
+        "force_show": false
+      },
+      {
+        "__component": "categories.category",
+        "id": 40,
+        "hide_products": false,
+        "background_color": null,
+        "gif_placement": null,
+        "description": "Every morning at 9am, Michelangelo and his 28-member kitchen brigade start producing the pasta dough to make the tastiest homemade pasta.",
+        "force_open": false,
+        "title": "PRIMI PIATTI",
+        "force_show": null
+      },
+      {
+        "__component": "categories.category",
+        "id": 46,
+        "hide_products": false,
+        "background_color": null,
+        "gif_placement": null,
+        "description": "Our homemade pizza dough rests for 72 hours before making it’s way into our oven. Pizza napoletana, cotto nel forno di casa!",
+        "force_open": false,
+        "title": "PIZZA NAPOLETANA",
+        "force_show": null
+      },
+      {
+        "__component": "categories.category",
+        "id": 44,
+        "hide_products": false,
+        "background_color": null,
+        "gif_placement": null,
+        "description": null,
+        "force_open": false,
+        "title": "SECONDI PIATTI",
+        "force_show": null
+      },
+      {
+        "__component": "categories.category",
+        "id": 45,
+        "hide_products": false,
+        "background_color": null,
+        "gif_placement": null,
+        "description": null,
+        "force_open": false,
+        "title": "SIDES",
+        "force_show": null
+      },
+      {
+        "__component": "categories.category",
+        "id": 47,
+        "hide_products": false,
+        "background_color": null,
+        "gif_placement": null,
+        "description": null,
+        "force_open": false,
+        "title": "DOLCI",
+        "force_show": null
+      },
+      {
+        "__component": "categories.category",
+        "id": 43,
+        "hide_products": false,
+        "background_color": null,
+        "gif_placement": null,
+        "description": null,
+        "force_open": false,
+        "title": "BRUNCH",
+        "force_show": null
+      },
+      {
+        "__component": "categories.category",
+        "id": 87,
+        "hide_products": false,
+        "background_color": null,
+        "gif_placement": null,
+        "description": "IN ADDITION TO OUR COCKTAIL CREATIONS, WE ALSO OFFER ALL THE CLASSIC DRINKS, FROM APEROL SPRITZ TO VODKA MARTINI.",
+        "force_open": false,
+        "title": "COCKTAILS",
+        "force_show": null
+      },
+      {
+        "__component": "categories.category",
+        "id": 51,
+        "hide_products": false,
+        "background_color": null,
+        "gif_placement": null,
+        "description": "* The stars indicate organic, biodynamic or natural wines. Our vintages are subject to change during the course of the menu. Selection of wines made by Alberto Sinibaldi.",
+        "force_open": false,
+        "title": "WINES",
+        "force_show": null
+      },
+      {
+        "__component": "categories.category",
+        "id": 88,
+        "hide_products": true,
+        "background_color": null,
+        "gif_placement": null,
+        "description": "We offer a wide variety of spirits and liqueurs, please don't hesitate to ask our bar staff for recommendations ❤️",
+        "force_open": false,
+        "title": "BIRRE, SOFTS, AND COFFEE",
+        "force_show": false
+      },
+      {
+        "__component": "categories.category",
+        "id": 206,
+        "hide_products": true,
+        "background_color": null,
+        "gif_placement": null,
+        "description": null,
+        "force_open": false,
+        "title": "SPIRITS LIST",
+        "force_show": false
+      },
+      {
+        "__component": "categories.category",
+        "id": 252,
+        "hide_products": false,
+        "background_color": null,
+        "gif_placement": null,
+        "description": "We offer a wide variety of spirits and liqueurs, please don't hesitate to ask our bar staff for recommendations ❤️",
+        "force_open": false,
+        "title": "SPIRITS",
+        "force_show": true
       }
     ],
     "services": [
@@ -71,47 +186,11 @@
         "endMinutes": null
       }
     ],
-    "our_surprise": {
-      "id": 157,
-      "name": "doggo_surprise_eng.gif",
-      "alternativeText": "doggo_surprise_eng.gif",
-      "caption": "doggo_surprise_eng.gif",
-      "width": null,
-      "height": null,
-      "formats": null,
-      "hash": "doggo_surprise_eng_e64811b206",
-      "ext": ".gif",
-      "mime": "image/gif",
-      "size": 190.7,
-      "url": "https://bucketeer-7223fd74-5e49-4cd4-8ed8-0e59071db8c6.s3.eu-west-1.amazonaws.com/doggo_surprise_eng_e64811b206.gif",
-      "previewUrl": null,
-      "provider": "aws-s3",
-      "provider_metadata": null,
-      "createdAt": "2022-06-24T06:34:15.164Z",
-      "updatedAt": "2022-06-24T06:34:15.164Z"
-    },
+    "our_surprise": null,
     "title_font": null,
     "body_font": null,
     "days": [],
-    "cover": {
-      "id": 156,
-      "name": "Header Munich ENG.svg",
-      "alternativeText": "Header Munich ENG.svg",
-      "caption": "Header Munich ENG.svg",
-      "width": null,
-      "height": null,
-      "formats": null,
-      "hash": "Header_Munich_ENG_27ed939ba6",
-      "ext": ".svg",
-      "mime": "image/svg+xml",
-      "size": 37.19,
-      "url": "https://bucketeer-7223fd74-5e49-4cd4-8ed8-0e59071db8c6.s3.eu-west-1.amazonaws.com/Header_Munich_ENG_27ed939ba6.svg",
-      "previewUrl": null,
-      "provider": "aws-s3",
-      "provider_metadata": null,
-      "createdAt": "2022-06-24T06:33:44.732Z",
-      "updatedAt": "2022-06-24T06:33:44.732Z"
-    },
+    "cover": null,
     "font": null,
     "quality_or_nothing": null,
     "createdBy": null,
